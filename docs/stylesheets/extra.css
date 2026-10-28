@@ -236,3 +236,9 @@ body:has(.home-hero) .md-header__inner { height: 4.5rem; }
 body:has(.home-hero) .md-tabs { display: none; }
 body:has(.home-hero) .md-main { padding-top: 0; }
 body:has(.home-hero) .md-main__inner { margin-top: 0; }
+
+
+/* Keep the reference-style landing page free of secondary navigation tabs. */
+html:has(.home-hero) .md-tabs { display: none !important; }
+html:has(.home-hero) .md-main { padding-top: 0 !important; }
+html:has(.home-hero) .md-main__inner { margin-top: 0 !important; }

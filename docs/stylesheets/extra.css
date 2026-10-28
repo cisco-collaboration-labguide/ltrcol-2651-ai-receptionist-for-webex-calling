@@ -230,3 +230,9 @@ body:has(.home-hero) .md-content__button { display: none; }
   .home-hero__actions { align-items: flex-start; flex-direction: column; gap: 1.4rem; margin-top: 2.5rem; }
   .home-hero__orb { top: 4%; right: -18%; }
 }
+
+
+body:has(.home-hero) .md-header__inner { height: 4.5rem; }
+body:has(.home-hero) .md-tabs { display: none; }
+body:has(.home-hero) .md-main { padding-top: 0; }
+body:has(.home-hero) .md-main__inner { margin-top: 0; }

@@ -1,52 +1,144 @@
 :root {
-  --md-primary-fg-color: #073f5c;
-  --md-primary-fg-color--light: #125b7c;
-  --md-primary-fg-color--dark: #052d43;
-  --md-text-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --md-code-font: "Cascadia Code", Consolas, monospace;
-}
-.md-grid { max-width: 84rem; }
-.md-typeset { font-size: .82rem; line-height: 1.7; }
-.md-typeset h1 { color: var(--md-default-fg-color); font-weight: 700; letter-spacing: -.025em; }
-.md-typeset h2 { font-weight: 650; margin-top: 2.2em; }
-.md-typeset h3 { font-weight: 650; }
-.md-typeset img { height: auto; max-width: 100%; }
-.md-typeset img.lab-screenshot { display: block; margin: 1.2rem auto; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .3rem; background: white; }
-.md-typeset a.image-zoom { display: block; cursor: zoom-in; }
-.md-typeset a.image-zoom:focus-visible { outline: 3px solid var(--md-accent-fg-color); }
-.md-typeset table:not([class]) { font-size: .73rem; }
-.md-typeset table:not([class]) th { background: var(--md-default-fg-color--lightest); }
-.md-typeset .lab-meta { color: var(--md-default-fg-color--light); font-size: .75rem; margin-top: -.8rem; }
-.md-typeset .lab-intro { font-size: 1rem; max-width: 48rem; }
-.md-typeset .admonition { font-size: .76rem; }
-.md-typeset pre { white-space: pre-wrap; overflow-wrap: anywhere; }
-.md-typeset code { overflow-wrap: anywhere; }
-.lab-image-dialog { max-width: 96vw; max-height: 94vh; padding: 2.5rem .75rem .75rem; border: 0; border-radius: .5rem; background: var(--md-default-bg-color); color: var(--md-default-fg-color); }
-.lab-image-dialog::backdrop { background: #000b; }
-.lab-image-dialog img { display: block; max-width: 90vw; max-height: 82vh; object-fit: contain; }
-.lab-image-dialog button { position: absolute; right: .8rem; top: .5rem; cursor: pointer; font: inherit; padding: .25rem .5rem; }
-@media (max-width: 600px) { .md-typeset { font-size: .8rem; } }
-@media print { .md-typeset a.image-zoom { break-inside: avoid; } }
-
-/* Cisco Live Melbourne 2026 reference template */
-:root {
   --md-primary-fg-color: #0d274d;
   --md-primary-fg-color--light: #244b79;
   --md-primary-fg-color--dark: #07182c;
   --md-accent-fg-color: #0076a8;
-  --md-text-font: "Inter", "Segoe UI", Arial, sans-serif;
+  --md-text-font: \"Inter\", \"Segoe UI\", Arial, sans-serif;
+  --md-code-font: \"Cascadia Code\", Consolas, monospace;
 }
-.event-banner { background: #07182c; line-height: 0; }
-.event-banner img { display: block; width: 100%; max-width: 1440px; height: auto; margin: 0 auto; }
-[data-md-color-scheme="default"] .md-typeset h1,
-[data-md-color-scheme="default"] .md-typeset h2,
-[data-md-color-scheme="default"] .md-typeset h3 { color: #0d274d; }
-.md-typeset table:not([class]) { border: 0; border-collapse: collapse; width: 100%; }
-.md-typeset table:not([class]) th { background: transparent; border-bottom: 2px solid #005073; }
-.md-typeset table:not([class]) td { border-bottom: 1px solid #83a9bc; }
-.md-typeset img.lab-screenshot { border-radius: 0; }
-@media print { .event-banner { print-color-adjust: exact; } }/* Preserve original image pixels when the user chooses actual size. */
-.lab-image-dialog { width: 96vw; height: 94vh; max-width: 96vw; max-height: 94vh; box-sizing: border-box; overflow: auto; }
-.lab-image-dialog img { margin: 0 auto; }
-.lab-image-dialog.is-actual-size img { max-width: none; max-height: none; object-fit: initial; margin: 0; }
+
+.md-grid { max-width: 88rem; }
+.md-header, .md-tabs { background: #07182c; }
+.md-tabs__link { font-weight: 600; }
+.md-tabs__link--active, .md-tabs__link:hover { color: #72d5ed; }
+.md-sidebar--primary .md-nav__title { color: var(--md-primary-fg-color); font-weight: 700; }
+.md-nav__item--section > .md-nav__link { font-weight: 700; }
+.md-nav__link--active { color: #0076a8; font-weight: 700; }
+
+.md-content__inner { max-width: 62rem; }
+.md-typeset { font-size: .96rem; line-height: 1.68; }
+.md-typeset p, .md-typeset li { color: var(--md-default-fg-color); }
+.md-typeset p { margin: .75em 0 1em; }
+.md-typeset h1 {
+  color: #0d274d;
+  font-size: 1.9rem;
+  font-weight: 400;
+  letter-spacing: -.02em;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+}
+.md-typeset h2 {
+  color: #0d274d;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 2.2rem 0 .9rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid #d8e1e8;
+}
+.md-typeset h3 {
+  color: #173d62;
+  font-size: 1.18rem;
+  font-weight: 650;
+  margin-top: 1.65rem;
+}
+.md-typeset h4 { color: #244b79; font-size: 1rem; font-weight: 700; }
+.md-typeset ol > li { margin-bottom: .8rem; }
+.md-typeset ol > li > p { margin: .2rem 0 .65rem; }
+.md-typeset ul > li { margin-bottom: .35rem; }
+.md-typeset strong { color: #102f50; }
+
+.md-typeset .lab-meta {
+  color: #526779;
+  font-size: .86rem;
+  letter-spacing: .02em;
+  margin: -.55rem 0 1.15rem;
+}
+.md-typeset .lab-intro {
+  color: #243d53;
+  font-size: 1.08rem;
+  line-height: 1.65;
+  max-width: 54rem;
+}
+.md-typeset .md-button { border-radius: .2rem; font-weight: 650; }
+.md-typeset .admonition {
+  border-left: .22rem solid #1680a8;
+  border-radius: .15rem;
+  box-shadow: 0 1px 3px #07182c12;
+  font-size: .92rem;
+  margin: 1.25rem 0 1.5rem;
+}
+.md-typeset .admonition-title { font-weight: 700; }
+.md-typeset .admonition.note { border-left-color: #1680a8; }
+.md-typeset .admonition.tip { border-left-color: #20845b; }
+.md-typeset .admonition.warning { border-left-color: #bd6b00; }
+
+.md-typeset img { height: auto; max-width: 100%; }
+.md-typeset img.lab-screenshot {
+  display: block;
+  height: auto;
+  margin: 1rem auto 1.4rem;
+  border: 1px solid #d3dce3;
+  border-radius: .15rem;
+  background: #fff;
+  box-shadow: 0 2px 8px #102f5012;
+}
+.md-typeset img.lab-icon { display: inline-block; vertical-align: middle; }
+.md-typeset a.image-zoom { display: block; cursor: zoom-in; }
+.md-typeset a.image-zoom:focus-visible { outline: 3px solid var(--md-accent-fg-color); }
+
+.md-typeset table:not([class]) {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: .88rem;
+  border: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+.md-typeset table:not([class]) th {
+  background: #f2f6f8;
+  border-bottom: 2px solid #005073;
+  color: #0d274d;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.md-typeset table:not([class]) td { border-bottom: 1px solid #d3dfe6; }
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th { padding: .65rem .8rem; vertical-align: top; }
+.md-typeset table:not([class]) img.lab-screenshot { margin: .35rem 0; }
+
+.md-typeset pre { border-left: .2rem solid #0076a8; white-space: pre-wrap; overflow-wrap: anywhere; }
+.md-typeset code { overflow-wrap: anywhere; }
+.md-footer__link { border-radius: .15rem; }
+
+.lab-image-dialog {
+  width: 96vw;
+  height: 94vh;
+  max-width: 96vw;
+  max-height: 94vh;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 2.5rem .75rem .75rem;
+  border: 0;
+  border-radius: .3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+.lab-image-dialog::backdrop { background: #000b; }
+.lab-image-dialog img { display: block; max-width: 90vw; max-height: 82vh; object-fit: contain; }
+.lab-image-dialog.is-actual-size img { max-width: none; max-height: none; object-fit: initial; }
+.lab-image-dialog button { position: absolute; right: .8rem; top: .5rem; cursor: pointer; font: inherit; padding: .25rem .5rem; }
 .lab-image-dialog button.lab-image-zoom-toggle { right: 5.5rem; }
+
+@media (max-width: 76rem) { .md-content__inner { max-width: 100%; } }
+@media (max-width: 600px) {
+  .md-typeset { font-size: .94rem; }
+  .md-typeset h1 { font-size: 1.7rem; }
+  .md-typeset h2 { font-size: 1.3rem; }
+  .md-typeset table:not([class]) { font-size: .82rem; }
+}
+@media print {
+  .md-typeset a.image-zoom { break-inside: avoid; }
+  .event-banner { print-color-adjust: exact; }
+}

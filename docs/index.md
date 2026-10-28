@@ -1,12 +1,18 @@
-# AI Receptionist for Webex Calling
+<section class="home-hero">
+  <div class="home-hero__content">
+    <p class="home-hero__eyebrow">CISCO LIVE MELBOURNE 2026 · LTRCOL-2651</p>
+    <h1>AI Receptionist<br>for Webex Calling</h1>
+    <p class="home-hero__description">Configure an AI Receptionist, build its knowledge base, route callers to support teams, and test the complete experience.</p>
+    <p class="home-hero__byline">Hussain Ali · Technical Marketing Engineer</p>
+    <div class="home-hero__actions">
+      <a class="home-hero__primary" href="tasks/01-access-the-lab/">Get started <span aria-hidden="true">⟶</span></a>
+      <a class="home-hero__secondary" href="tasks/03-configure-ai-receptionist/">Go to the lab <span aria-hidden="true">⟶</span></a>
+    </div>
+  </div>
+  <span class="home-hero__orb" aria-hidden="true"></span>
+</section>
 
-<p class="lab-meta">Cisco Live Melbourne · LTRCOL-2651 · Hussain Ali, Technical Marketing Engineer</p>
-
-<p class="lab-intro">Configure an AI Receptionist, build its knowledge base, route callers to support teams, and test the complete experience.</p>
-
-**Guide date:** November 12, 2026 · **Estimated lab time:** 74 minutes
-
-[Start Task 1 →](tasks/01-access-the-lab.md){ .md-button .md-button--primary }
+<p class="lab-meta">Guide date: November 12, 2026 · Estimated lab time: 74 minutes</p>
 
 !!! info "Before you start"
 
@@ -18,7 +24,6 @@ Upon completion of this lab, you will:
 
 - Have fundamental knowledge of <strong>AI Receptionist for Webex Calling</strong>. Their key capabilities, how to configure them and how they work.
 
-
 - How to configure an AI Receptionist along with its knowledge base and interact with the AI Receptionist to see the experience
 
 ## Scenario \[3 minutes\] { #scenario-3-minutes }
@@ -29,18 +34,13 @@ Here are the high-level TASKS to achieve the objectives of this lab:
 
 - [TASK 1: Accessing the lab](tasks/01-access-the-lab.md)
 
-
 - [TASK 2: Access the Collaboration Control Hub](tasks/02-control-hub.md)
-
 
 - [TASK 3: Configure an AI Receptionist](tasks/03-configure-ai-receptionist.md)
 
-
 - [TASK 4: Configure intent-based routing for the AI Receptionist](tasks/04-intent-based-routing.md)
 
-
 - [TASK 5: Log into the Webex App for all users](tasks/05-webex-app.md)
-
 
 - [TASK 6: Verify and interact with the AI Receptionist](tasks/06-verify-ai-receptionist.md)
 
@@ -56,10 +56,10 @@ Table 1 - Lab Details
 | --- | --- | --- | --- | --- |
 | Cisco Unified CM | 14.x | 198.18.133.3 | administrator | dCloud123! |
 | Unity Connection | 14.x | 198.18.133.5 | administrator | dCloud123! |
-| User Workstation 1 | Windows 10 | 198.18.1.36 | dcloud\\cholland | dCloud123! |
-| User Workstation 2 | Windows 10 | 198.18.1.37 | dcloud\\aperez | dCloud123! |
-| User Workstation 3 | Windows 10 | 198.18.1.35 | dcloud\\kmelby | dCloud123! |
-| User Workstation 4 | Windows 10 | 198.18.1.40 | dcloud\\tbard | dCloud123! |
+| User Workstation 1 | Windows 10 | 198.18.1.36 | dcloud\cholland | dCloud123! |
+| User Workstation 2 | Windows 10 | 198.18.1.37 | dcloud\aperez | dCloud123! |
+| User Workstation 3 | Windows 10 | 198.18.1.35 | dcloud\kmelby | dCloud123! |
+| User Workstation 4 | Windows 10 | 198.18.1.40 | dcloud\tbard | dCloud123! |
 | Cisco CSR8000v (LGW) | 17.13.1a | 198.18.133.227<br>198.18.1.227 | admin | dCloud123! |
 | Collaboration Control Hub |  | [https://admin.webex.com](https://admin.webex.com) | cholland@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | dCloud<mark>ZZZZ</mark>! |
 
@@ -81,4 +81,3 @@ Table 2 - User Details
 !!! note
 
     Details on how to find your lab domain name (@cbXXX.dc-YY.com) and the last 4-digits of your lab session ID (<mark>ZZZZ</mark>) will be explained in <strong>Task 1: Accessing the Lab</strong>.
-

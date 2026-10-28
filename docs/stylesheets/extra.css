@@ -142,3 +142,91 @@
   .md-typeset a.image-zoom { break-inside: avoid; }
   .event-banner { print-color-adjust: exact; }
 }
+
+
+/* Landing page hero follows the Cisco Live lab template. */
+body:has(.home-hero) .event-banner { display: none; }
+body:has(.home-hero) .md-main__inner { display: block; max-width: 100%; }
+body:has(.home-hero) .md-sidebar { display: none; }
+body:has(.home-hero) .md-content { max-width: none; margin: 0; }
+body:has(.home-hero) .md-content__inner { max-width: none; padding: 0; margin: 0; }
+body:has(.home-hero) .md-content__button { display: none; }
+.home-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: min(49rem, calc(100vh - 7rem));
+  max-width: 88rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto 3rem;
+  padding: clamp(3.5rem, 7vw, 7rem) clamp(2rem, 5vw, 5rem);
+  background: #041d2c;
+  color: #fff;
+}
+.home-hero__content { position: relative; z-index: 1; max-width: 58rem; }
+.md-typeset .home-hero__eyebrow {
+  margin: 0 0 2.1rem;
+  color: #47d5e7;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.md-typeset .home-hero h1 {
+  margin: 0 0 2.5rem;
+  color: #fff;
+  font-size: clamp(3.4rem, 6vw, 5.8rem);
+  font-weight: 700;
+  letter-spacing: -.045em;
+  line-height: 1.02;
+}
+.md-typeset .home-hero__description {
+  max-width: 54rem;
+  margin: 0;
+  color: #c6d9e2;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.65;
+}
+.md-typeset .home-hero__byline {
+  margin: 2.7rem 0 0;
+  color: #9fb8c6;
+  font-size: 1.05rem;
+}
+.home-hero__actions { display: flex; align-items: center; gap: 2.2rem; margin-top: 4rem; }
+.md-typeset .home-hero__actions a { text-decoration: none; }
+.md-typeset .home-hero__primary {
+  display: inline-flex;
+  align-items: center;
+  gap: .75rem;
+  padding: 1.1rem 2rem;
+  border-radius: 999px;
+  background: #00bceb;
+  color: #032333;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: background-color .18s ease, transform .18s ease;
+}
+.md-typeset .home-hero__primary:hover { background: #51d8ee; transform: translateY(-2px); }
+.md-typeset .home-hero__secondary { color: #d3e4eb; font-size: 1.1rem; font-weight: 600; }
+.md-typeset .home-hero__secondary:hover { color: #51d8ee; }
+.home-hero__orb {
+  position: absolute;
+  top: 9%;
+  right: -2%;
+  width: clamp(12rem, 23vw, 21rem);
+  aspect-ratio: 1;
+  border: clamp(.8rem, 1.2vw, 1.2rem) solid #06394b;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.md-typeset .home-hero + .lab-meta { margin: 0 0 2rem; }
+
+@media (max-width: 600px) {
+  .home-hero { min-height: 39rem; margin-bottom: 2rem; padding: 3rem 1.5rem; }
+  .md-typeset .home-hero h1 { font-size: clamp(3rem, 13vw, 4rem); }
+  .md-typeset .home-hero__description { font-size: 1.2rem; }
+  .home-hero__actions { align-items: flex-start; flex-direction: column; gap: 1.4rem; margin-top: 2.5rem; }
+  .home-hero__orb { top: 4%; right: -18%; }
+}

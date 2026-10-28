@@ -1,6 +1,6 @@
 repo_url: https://github.com/cisco-collaboration-labguide/ltrcol-2651-ai-receptionist-for-webex-calling
 edit_uri: edit/main/docs/
-site_name: AI Receptionist for Webex Calling
+site_name: LTRCOL-2651 AI Receptionist for Webex Calling
 site_description: Cisco Live Melbourne lab LTRCOL-2651 — configure, route, and test a Webex Calling AI Receptionist.
 site_author: Hussain Ali
 use_directory_urls: true
@@ -25,6 +25,9 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.footer
     - navigation.top
     - navigation.tracking
@@ -54,13 +57,16 @@ extra_javascript:
   - javascripts/image-viewer.js
 nav:
   - Introduction: index.md
-  - 'Task 1 · Access the lab': tasks/01-access-the-lab.md
-  - 'Task 2 · Control Hub': tasks/02-control-hub.md
-  - 'AI Receptionist Overview [5 minutes]': ai-receptionist-overview.md
-  - 'Task 3 · Configure AI Receptionist': tasks/03-configure-ai-receptionist.md
-  - 'Task 4 · Intent-based routing': tasks/04-intent-based-routing.md
-  - 'Task 5 · Sign in to Webex': tasks/05-webex-app.md
-  - 'Task 6 · Test the receptionist': tasks/06-verify-ai-receptionist.md
+  - Getting Started:
+      - Task 1 · Access the lab: tasks/01-access-the-lab.md
+      - Task 2 · Control Hub: tasks/02-control-hub.md
+  - AI Receptionist:
+      - AI Receptionist Overview [5 minutes]: ai-receptionist-overview.md
+      - Task 3 · Configure AI Receptionist: tasks/03-configure-ai-receptionist.md
+  - Routing and Testing:
+      - Task 4 · Intent-based routing: tasks/04-intent-based-routing.md
+      - Task 5 · Sign in to Webex: tasks/05-webex-app.md
+      - Task 6 · Test the receptionist: tasks/06-verify-ai-receptionist.md
 validation:
   nav:
     omitted_files: warn

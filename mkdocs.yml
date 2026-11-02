@@ -11,8 +11,7 @@ theme:
   custom_dir: overrides
   language: en
   font: false
-  icon:
-    logo: material/phone-in-talk
+  logo: assets/cisco-header-logo.png
   palette:
     - scheme: default
       primary: custom

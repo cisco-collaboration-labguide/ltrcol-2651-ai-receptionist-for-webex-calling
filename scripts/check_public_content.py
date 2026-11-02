@@ -10,6 +10,7 @@ import json
 import hashlib
 from collections import Counter
 
+
 docs = Path('docs')
 patterns = [r'dcloud\s*(?:\d+|z{4})\s*!', r'cb\d+\.dc-\d+\.com',
             r'last\s+(?:four|4)[ -]+digits', r'dcloudconnect[^\s]*[?]']
@@ -18,6 +19,8 @@ approved = json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists()
 errors = []
 referenced = set()
 for path in docs.rglob('*.md'):
+    if not path.is_file():
+        continue
     source = path.read_text(encoding='utf-8')
     plain = html.unescape(re.sub(r'<[^>]+>', '', source))
     found = Counter(hashlib.sha256(m.group().lower().encode()).hexdigest()

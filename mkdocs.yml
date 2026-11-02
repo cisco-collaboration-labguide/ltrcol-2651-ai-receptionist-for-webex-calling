@@ -4,6 +4,8 @@ site_name: LTRCOL-2651 · AI Receptionist for Webex Calling
 site_description: Cisco Live Melbourne lab LTRCOL-2651 — configure, route, and test a Webex Calling AI Receptionist.
 site_author: Hussain Ali
 use_directory_urls: true
+exclude_docs: |
+  introduction.md/**
 theme:
   name: material
   custom_dir: overrides

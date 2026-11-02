@@ -1,0 +1,5 @@
+/* Match the lab template navigation and keep the event banner full-width. */
+body:has(.home-hero) .md-tabs { display: block !important; }
+.event-banner { display: block; width: 100%; min-height: 90px; box-sizing: border-box; overflow: hidden; background-color: #07182c; line-height: 0; }
+.event-banner img { display: block; width: min(100%, 1000px); max-width: 100%; height: auto; }
+@media (max-width: 1000px) { .event-banner { min-height: 0; } .event-banner img { width: 100%; } }

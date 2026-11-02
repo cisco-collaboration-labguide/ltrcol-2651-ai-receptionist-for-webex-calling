@@ -25,6 +25,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.footer
     - navigation.top
@@ -54,7 +56,8 @@ extra_css:
 extra_javascript:
   - javascripts/image-viewer.js
 nav:
-  - Introduction: index.md
+  - Home: index.md
+  - Introduction: lab-introduction.md
   - Getting Started:
       - Task 1 · Access the lab: tasks/01-access-the-lab.md
       - Task 2 · Control Hub: tasks/02-control-hub.md

@@ -242,3 +242,39 @@ body:has(.home-hero) .md-main__inner { margin-top: 0; }
 html:has(.home-hero) .md-tabs { display: none !important; }
 html:has(.home-hero) .md-main { padding-top: 0 !important; }
 html:has(.home-hero) .md-main__inner { margin-top: 0 !important; }
+
+
+/* Cisco header logo: crop the square canvas to the complete mark and blend its dark matte. */
+.md-header__button.md-logo {
+  display: block;
+  width: 75.6px;
+  height: 40.6px;
+  overflow: hidden;
+  padding: 0;
+  margin: .25rem .65rem .25rem .2rem;
+  flex-shrink: 0;
+  mix-blend-mode: screen;
+}
+.md-header__button.md-logo img {
+  display: block;
+  width: 100.8px;
+  height: 100.8px;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  transform: translate(-12.6px, -30.1px);
+  filter: grayscale(1) contrast(1.4);
+}
+@media (max-width: 760px) {
+  .md-header__button.md-logo {
+    width: 56px;
+    height: 30.8px;
+    margin-right: .3rem;
+  }
+  .md-header__button.md-logo img {
+    width: 75.6px;
+    height: 75.6px;
+    transform: translate(-9.8px, -22.4px);
+  }
+  .md-header__title { margin-left: .2rem; }
+}

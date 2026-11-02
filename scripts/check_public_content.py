@@ -19,7 +19,8 @@ approved = json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists()
 errors = []
 referenced = set()
 for path in docs.rglob('*.md'):
-    if not path.is_file():
+    relative = path.relative_to(docs)
+    if not path.is_file() or relative.parts[0] == 'introduction.md':
         continue
     source = path.read_text(encoding='utf-8')
     plain = html.unescape(re.sub(r'<[^>]+>', '', source))

@@ -1,7 +1,7 @@
-/* 50% larger Cisco header logo override */
-.md-header__button.md-logo { width: 113.4px; height: 60.9px; }
-.md-header__button.md-logo img { width: 151.2px; height: 151.2px; transform: translate(-18.9px, -45.15px); }
+/* Cisco header logo resized to 20% below the previous version */
+.md-header__button.md-logo { width: 90.72px; height: 48.72px; }
+.md-header__button.md-logo img { width: 120.96px; height: 120.96px; transform: translate(-15.12px, -36.12px); }
 @media (max-width: 760px) {
-  .md-header__button.md-logo { width: 84px; height: 46.2px; }
-  .md-header__button.md-logo img { width: 113.4px; height: 113.4px; transform: translate(-14.7px, -33.6px); }
+  .md-header__button.md-logo { width: 67.2px; height: 36.96px; }
+  .md-header__button.md-logo img { width: 90.72px; height: 90.72px; transform: translate(-11.76px, -26.88px); }
 }

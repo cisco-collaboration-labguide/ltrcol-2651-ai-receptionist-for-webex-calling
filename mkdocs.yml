@@ -55,7 +55,7 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/home-fix.css
-  - stylesheets/logo-50-v2.css
+  - stylesheets/logo-20.css
 extra_javascript:
   - javascripts/image-viewer.js
 nav:

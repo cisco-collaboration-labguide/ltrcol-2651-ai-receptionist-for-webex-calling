@@ -1,0 +1,7 @@
+/* Cisco header logo at 20% smaller than the previous version */
+.md-header__button.md-logo { width: 90.72px; height: 48.72px; }
+.md-header__button.md-logo img { width: 120.96px; height: 120.96px; transform: translate(-15.12px, -36.12px); }
+@media (max-width: 760px) {
+  .md-header__button.md-logo { width: 67.2px; height: 36.96px; }
+  .md-header__button.md-logo img { width: 90.72px; height: 90.72px; transform: translate(-11.76px, -26.88px); }
+}

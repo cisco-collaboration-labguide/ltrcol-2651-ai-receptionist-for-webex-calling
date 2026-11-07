@@ -76,7 +76,6 @@
 .md-typeset img { height: auto; max-width: 100%; }
 .md-typeset img.lab-screenshot {
   display: block;
-  width: 100%;
   height: auto;
   margin: 1rem auto 1.4rem;
   border: 1px solid #d3dce3;
@@ -85,8 +84,7 @@
   box-shadow: 0 2px 8px #102f5012;
 }
 .md-typeset img.lab-icon { display: inline-block; vertical-align: middle; }
-.md-typeset img.lab-screenshot.lab-icon { width: min(100%, 20rem); }
-.md-typeset img.lab-screenshot.lab-portrait { width: 82%; }
+.md-typeset img.lab-screenshot.lab-portrait { width: auto; max-width: 82%; }
 .md-typeset a.image-zoom { display: block; cursor: zoom-in; }
 .md-typeset a.image-zoom:focus-visible { outline: 3px solid var(--md-accent-fg-color); }
 

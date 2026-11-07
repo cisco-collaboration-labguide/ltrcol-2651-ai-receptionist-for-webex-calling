@@ -4,7 +4,7 @@ In this part of the lab, you will gain hands-on experience in modernizing front-
 
 The lab provides a comprehensive walkthrough of the AI Receptionist deployment lifecycle within the Collaboration Control Hub. You will move from the basic call routing via Auto Attendants to using an intelligent, LLM-powered capable AI Receptionist that understands the caller’s intent, provides context-aware information, and routes calls to the right Customer Assist queue or user.
 
-![Source screenshot image17](assets/images/updated-image17.png){ .lab-screenshot width="1100" loading="lazy" }
+![AI Receptionist call flow greeting APEX UC Solutions](assets/images/updated-image17.png){ .lab-screenshot width="727" loading="lazy" }
 
 Even after-hours customers can get answers to important questions:
 

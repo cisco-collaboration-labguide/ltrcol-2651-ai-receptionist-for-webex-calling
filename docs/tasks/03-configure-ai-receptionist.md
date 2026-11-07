@@ -56,7 +56,7 @@ In this step you will create a **Knowledge Base** and add information to it that
 
 1. In this lab we have provided text files to help create the Knowledge Base. Double click the **WxC AIR Files** folder on **Workstation 1’s** Desktop.
 
-![Source screenshot image25](../assets/images/updated-image25.png){ .lab-screenshot width="222" loading="lazy" }
+![Source screenshot image25](../assets/images/updated-image25.png){ .lab-screenshot .lab-compact width="222" loading="lazy" }
 
 1. In this folder right clicking the file **AI By Design Solutions-KB.txt** and select *Edit with Notepad++* to open the file.<br><br>Please take a moment to review the Questions and Answers in the file.
 
@@ -154,7 +154,7 @@ Prices below are the list price of the warranties before contract negotiation.
     If you see a continuous spinning circle next to the file name and the following toast notification, then the file creation process is taking longer to complete (which is a known caveat):
     Give it a couple of minutes and then try refreshing the browser and see if the file has completed the upload process
     If that does not work, proceed with the rest of the AI Receptionist configuration and come back later to check
-    ![Source screenshot image38](../assets/images/updated-image38.png){ .lab-screenshot width="512" loading="lazy" }
+    ![Source screenshot image38](../assets/images/updated-image38.png){ .lab-screenshot .lab-compact width="512" loading="lazy" }
 
 1. If you click on the ‘***Knowledge Base***’ link at the top left of the page, you will see there are now 2 files in the **AI By Design Solutions Knowledge Base**, but the Knowledge Base is not **Assigned** to an AI Receptionist yet.
 

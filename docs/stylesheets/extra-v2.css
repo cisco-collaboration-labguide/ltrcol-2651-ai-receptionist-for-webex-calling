@@ -76,7 +76,7 @@
 .md-typeset img { height: auto; max-width: 100%; }
 .md-typeset img.lab-screenshot {
   display: block;
-  width: 65%;
+  width: 50%;
   height: auto;
   max-width: 100%;
   margin: 1rem auto 1.4rem;

@@ -1,65 +1,66 @@
 # Lab Introduction
 
-<p class="lab-meta">Guide date: November 12, 2026 · Estimated lab time: 74 minutes</p>
+<p class="lab-meta">LTRCOL-2651 · AI Receptionist for Webex Calling · Cisco Live Melbourne</p>
 
-!!! info "Before you start"
+**AI Receptionist for Webex Calling**
 
-    Have your assigned dCloud session available. Use your own session’s domain, credentials, and PSTN numbers wherever the guide shows examples. Tasks 4–6 require the Customer Assist queues and user roles described in the guide to exist in your lab.
+**   LTRCOL-2651**
 
-## Learning Objectives [1 minute] { #learning-objectives-1-minute }
+**Hussain Ali, Technical Marketing Engineer**
+
+November 12, 2026
+
+## Learning Objectives
 
 Upon completion of this lab, you will:
 
-- Have fundamental knowledge of <strong>AI Receptionist for Webex Calling</strong>. Their key capabilities, how to configure them and how they work.
-- How to configure an AI Receptionist along with its knowledge base and interact with the AI Receptionist to see the experience.
+- Have fundamental knowledge of **AI Receptionist for Webex Calling**. Their key capabilities, how to configure them and how they work.
 
-## Scenario [3 minutes] { #scenario-3-minutes }
+- How to configure an AI Receptionist along with its knowledge base and interact with the AI Receptionist to see the experience
 
-In this lab, you will gain hands-on experience in configuring and testing the <strong>AI Receptionist.</strong> This lab provides step-by-step instructions for setting up an AI Receptionist.
+## Scenario
+
+In this lab, you will gain hands-on experience in configuring and testing the **AI Receptionist. **This lab provides step-by-step instructions for setting up an AI Receptionist.
 
 Here are the high-level TASKS to achieve the objectives of this lab:
 
-- [TASK 1: Accessing the lab](tasks/01-access-the-lab.md)
-- [TASK 2: Access the Collaboration Control Hub](tasks/02-control-hub.md)
-- [TASK 3: Configure an AI Receptionist](tasks/03-configure-ai-receptionist.md)
-- [TASK 4: Configure intent-based routing for the AI Receptionist](tasks/04-intent-based-routing.md)
-- [TASK 5: Log into the Webex App for all users](tasks/05-webex-app.md)
-- [TASK 6: Verify and interact with the AI Receptionist](tasks/06-verify-ai-receptionist.md)
+- TASK 1: Accessing the lab
 
-## Lab Topology [5 minutes] { #lab-topology-5-minutes }
+- TASK 2: Access the Collaboration Control Hub and the Webex App
 
-The lab already has the Unified Communications Manager and Unity Connection with preconfigured users and devices.
+- TASK 3: Configure an AI Receptionist
 
-![Lab Topology [5 minutes] — screenshot 1](assets/images/image6.jpg){ .lab-screenshot width="668" loading="lazy" }
+- Task 4: Prepare Webex Calling Customer Assist
 
-Table 1 - Lab Details
+- TASK 5: Configure intent-based routing for the AI Receptionist
 
-| <strong>Application</strong> | <strong>Version</strong> | <strong>IP address or URL</strong> | <strong>Username</strong> | <strong>Password</strong> |
-| --- | --- | --- | --- | --- |
-| Cisco Unified CM | 14.x | 198.18.133.3 | administrator | dCloud123! |
-| Unity Connection | 14.x | 198.18.133.5 | administrator | dCloud123! |
-| User Workstation 1 | Windows 10 | 198.18.1.36 | dcloud\cholland | dCloud123! |
-| User Workstation 2 | Windows 10 | 198.18.1.37 | dcloud\aperez | dCloud123! |
-| User Workstation 3 | Windows 10 | 198.18.1.35 | dcloud\kmelby | dCloud123! |
-| User Workstation 4 | Windows 10 | 198.18.1.40 | dcloud\tbard | dCloud123! |
-| Cisco CSR8000v (LGW) | 17.13.1a | 198.18.133.227<br>198.18.1.227 | admin | dCloud123! |
-| Collaboration Control Hub |  | [https://admin.webex.com](https://admin.webex.com) | cholland@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | dCloud<mark>ZZZZ</mark>! |
+- TASK 6: Log into the Webex App for all users
 
-Table 2 - User Details
+- TASK 7: Verify and interact with the AI Receptionist
 
-| <strong>User</strong> | <strong>Mail ID</strong> | <strong>Directory Number</strong> | <strong>Webex Calling Enabled</strong> |
+<br>
+
+## Lab Topology
+
+In this lab, we have a classroom workstation (physical workstation) and three virtual workstations. You are reading this lab guide from the physical workstation.
+
+![Source screenshot image6](assets/images/updated-image6.png){ .lab-screenshot width="1100" loading="lazy" }
+
+You will access the Collaboration Control Hub from workstation 1 (WKST 1 – virtual workstation) to do the lab tasks.
+
+You will need 4 Webex App logins to test calls in this lab:
+
+1. Webex tenant user **Charles Holland** (cholland@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from the classroom workstation (physical workstation) or your mobile phone.
+
+1. Webex tenant user **Taylor Bard** (tbard@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 1 (WKST 1 – virtual workstation)
+
+1. Webex tenant user **Anita Perez** (aperez@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 2 (WKST 2 – virtual workstation)
+
+1. Webex tenant user **Kellie Melbie** (kmelby@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 3 (WKST 3 – virtual workstation)
+
+| **User ** | **Mail ID ** | **Directory Number** | **Webex App Login From** |
 | --- | --- | --- | --- |
-| Adam McKenzie | amckenzie@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6016 | N |
-| Anita Perez | aperez@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6017 | <strong>Y</strong> |
-| Charles Holland | cholland@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6018 | <strong>Y</strong> |
-| Eric Steele | esteele@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6099 | N |
-| Kellie Melby | kmelby@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6050 | <strong>Y</strong> |
-| Monica Cheng | mcheng@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6020 | N |
-| Rebekah Barretta | rbarretta@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6088 | N |
-| Ricardo Filice | rfilice@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6083 | N |
-| Stefan Mauk | smauk@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6072 | N |
-| Taylor Bard | tbard@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6026 | <strong>Y</strong> |
-
-!!! note
-
-    Details on how to find your lab domain name (@cbXXX.dc-YY.com) and the last 4-digits of your lab session ID (<mark>ZZZZ</mark>) will be explained in <strong>Task 1: Accessing the Lab</strong>.
+| Charles Holland | cholland@&lt;**your pod’s FQDN**&gt; | 6018 | Physical Workstation / mobile phone |
+| Kellie Melby | kmelby@&lt;**your pod’s FQDN**&gt; | 6050 | Virtual Workstation 3 – WKST 3 |
+| Anita Perez | aperez@&lt;**your pod’s FQDN**&gt; | 6017 | Virtual Workstation 2 – WKST 2 |
+| Taylor Bard | tbard@&lt;**your pod’s FQDN**&gt; | 6026 | Virtual Workstation 1 – WKST 1 |

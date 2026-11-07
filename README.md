@@ -2,8 +2,9 @@
 
 AI Receptionist for Webex Calling — Cisco Live Melbourne.
 
-This MkDocs site contains an introduction and six lab tasks converted from
-Hussain Ali's Word lab guide. The original document is not needed to build the site.
+This MkDocs site contains an introduction, seven lab tasks, and the overview
+sections from Hussain Ali's updated Word lab guide. The original document is
+not needed to build the site.
 
 ## Preview locally
 
@@ -43,8 +44,10 @@ Do not edit the generated `site/` folder. Navigation and site title are configur
 
 ## Project files
 
-- `docs/index.md`: introduction, objectives, topology, and overview.
+- `docs/index.md`: concise home page.
+- `docs/lab-introduction.md`: objectives, scenario, topology, and lab setup.
 - `docs/tasks/`: one Markdown file per task, with steps as headings.
+- `docs/ai-receptionist-overview.md` and `docs/customer-assist-overview.md`: overview sections in source order.
 - `docs/assets/images/`: extracted document images.
 - `mkdocs.yml`: navigation, theme, and Markdown extensions.
 - `docs/stylesheets/extra.css`: layout and colors.
@@ -61,9 +64,10 @@ python -m mkdocs build --strict
 python scripts/check_site.py
 ```
 
-The build reports missing Markdown targets. The checker verifies generated page
-links, anchors, image references, and the seven required pages. It does not log
-into lab applications or validate the operational state of a dCloud session.
+The checker verifies generated page links, anchors, image references, and all 11
+guide pages. It also confirms that all 93 screenshot placements across the 92
+embedded source images appear in the build. It does not log into lab applications
+or validate the operational state of a dCloud session.
 
 ## GitHub Pages
 
@@ -79,4 +83,7 @@ The included `.github/workflows/pages.yml` builds and publishes every push to
 The workflow derives the site URL from the repository owner and name. No personal
 access token is stored in the project; deployment uses GitHub's workflow token.
 
-This edition restores the original lab document's login details, password instructions, and screenshots at the owner's request on October 20, 2026. Use the assigned session values where the original guide identifies examples. The Word document remains the reference source; website edits are made in Markdown.
+The public guide preserves the sample login and password details shown in the
+updated Word guide. Participants should use their assigned values from
+`Session_Info.txt` wherever the guide identifies session-specific information.
+The Word document is the content reference; website edits are made in Markdown.

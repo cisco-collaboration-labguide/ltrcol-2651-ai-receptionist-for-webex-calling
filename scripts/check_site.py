@@ -13,6 +13,7 @@ class Page(HTMLParser):
         super().__init__()
         self.path, self.ids, self.links, self.images = path, set(), [], []
         self.h1_count = 0
+        self.lab_screenshots = []
         self.feed(path.read_text(encoding="utf-8"))
 
     def handle_starttag(self, tag, attrs):
@@ -25,16 +26,27 @@ class Page(HTMLParser):
             self.links.append(attrs["href"])
         if tag == "img":
             self.images.append(attrs)
+            if "lab-screenshot" in attrs.get("class", "").split():
+                self.lab_screenshots.append(attrs)
 
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "site").resolve()
 pages = {path.resolve(): Page(path) for path in root.rglob("*.html")}
 errors = []
 checked_links = checked_images = 0
-expected = ["index.html"] + [f"tasks/{name}/index.html" for name in (
-    "01-access-the-lab", "02-control-hub", "03-configure-ai-receptionist",
-    "04-intent-based-routing", "05-webex-app", "06-verify-ai-receptionist",
-)]
+expected = [
+    "index.html",
+    "lab-introduction/index.html",
+    "tasks/01-access-the-lab/index.html",
+    "tasks/02-control-hub/index.html",
+    "ai-receptionist-overview/index.html",
+    "tasks/03-configure-ai-receptionist/index.html",
+    "customer-assist-overview/index.html",
+    "tasks/04-customer-assist/index.html",
+    "tasks/05-intent-based-routing/index.html",
+    "tasks/06-webex-app/index.html",
+    "tasks/07-verify-ai-receptionist/index.html",
+]
 for name in expected:
     if root / name not in pages:
         errors.append(f"Missing page: {name}")
@@ -74,4 +86,9 @@ for path, page in pages.items():
 if errors:
     print("\n".join(errors))
     raise SystemExit(1)
-print(f"PASS: {len(expected)} lab pages; {checked_links} local links/anchors; {checked_images} image references.")
+source_screenshots = sum(len(page.lab_screenshots) for page in pages.values())
+unique_screenshots = len({img.get("src") for page in pages.values() for img in page.lab_screenshots})
+if source_screenshots != 93 or unique_screenshots != 92:
+    print(f"Screenshot mismatch: expected 93 placements across 92 source images; found {source_screenshots} placements across {unique_screenshots} files.")
+    raise SystemExit(1)
+print(f"PASS: {len(expected)} guide pages; {checked_links} local links/anchors; {checked_images} image references; all 93 screenshot placements across 92 images.")

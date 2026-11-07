@@ -63,14 +63,17 @@ nav:
   - Introduction: lab-introduction.md
   - Getting Started:
       - Task 1 · Access the lab: tasks/01-access-the-lab.md
-      - Task 2 · Control Hub: tasks/02-control-hub.md
+      - Task 2 · Control Hub and Webex App: tasks/02-control-hub.md
   - AI Receptionist:
-      - AI Receptionist Overview [5 minutes]: ai-receptionist-overview.md
+      - AI Receptionist Overview: ai-receptionist-overview.md
       - Task 3 · Configure AI Receptionist: tasks/03-configure-ai-receptionist.md
+  - Customer Assist:
+      - Customer Assist Overview: customer-assist-overview.md
+      - Task 4 · Prepare Customer Assist: tasks/04-customer-assist.md
   - Routing and Testing:
-      - Task 4 · Intent-based routing: tasks/04-intent-based-routing.md
-      - Task 5 · Sign in to Webex: tasks/05-webex-app.md
-      - Task 6 · Test the receptionist: tasks/06-verify-ai-receptionist.md
+      - Task 5 · Intent-based routing: tasks/05-intent-based-routing.md
+      - Task 6 · Sign in to Webex: tasks/06-webex-app.md
+      - Task 7 · Test the receptionist: tasks/07-verify-ai-receptionist.md
 validation:
   nav:
     omitted_files: warn

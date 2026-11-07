@@ -56,7 +56,7 @@ In this step you will create a **Knowledge Base** and add information to it that
 
 1. In this lab we have provided text files to help create the Knowledge Base. Double click the **WxC AIR Files** folder on **Workstation 1’s** Desktop.
 
-![Source screenshot image25](../assets/images/updated-image25.png){ .lab-screenshot width="222" loading="lazy" }
+![Source screenshot image25](../assets/images/updated-image25.png){ .lab-screenshot .lab-icon width="222" loading="lazy" }
 
 1. In this folder right clicking the file **AI By Design Solutions-KB.txt** and select *Edit with Notepad++* to open the file.<br><br>Please take a moment to review the Questions and Answers in the file.
 

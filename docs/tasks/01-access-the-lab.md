@@ -6,7 +6,7 @@ All components for this lab can be accessed through a web browser.
 
 1. Click **Explore **for LTRCOL-2651. <br>
 
-    ![Source screenshot image7](../assets/images/updated-image7.png){ .lab-screenshot width="1042" loading="lazy" }
+    ![Source screenshot image7](../assets/images/updated-image7.png){ .lab-screenshot .lab-portrait width="1042" loading="lazy" }
 
 1. Enter your email and click **Launch. **
 

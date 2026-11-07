@@ -86,6 +86,7 @@
 }
 .md-typeset img.lab-icon { display: inline-block; vertical-align: middle; }
 .md-typeset img.lab-screenshot.lab-icon { width: min(100%, 20rem); }
+.md-typeset img.lab-screenshot.lab-portrait { width: 82%; }
 .md-typeset a.image-zoom { display: block; cursor: zoom-in; }
 .md-typeset a.image-zoom:focus-visible { outline: 3px solid var(--md-accent-fg-color); }
 

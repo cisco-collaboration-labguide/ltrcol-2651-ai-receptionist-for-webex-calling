@@ -8,7 +8,7 @@ All components for this lab can be accessed through a web browser.
 
     ![Source screenshot image7](../assets/images/updated-image7.png){ .lab-screenshot width="1042" loading="lazy" }
 
-1. Enter your email and click **Launch. **
+1. Enter your email and click **Launch.**
 
 ![Source screenshot image8](../assets/images/updated-image8.png){ .lab-screenshot width="1100" loading="lazy" }
 

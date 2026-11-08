@@ -2,7 +2,7 @@
 
 Let’s ensure you are logged into the Webex App as per the table below.
 
-| **User ** | **Mail ID ** | **Directory Number** | **Webex App Login From** |
+| **User** | **Mail ID** | **Directory Number** | **Webex App Login From** |
 | --- | --- | --- | --- |
 | Charles Holland | cholland@&lt;**your pod’s FQDN**&gt; | 6018 | Physical Workstation / mobile phone |
 | Kellie Melby | kmelby@&lt;**your pod’s FQDN**&gt; | 6050 | Virtual Workstation 3 – WKST 3 |

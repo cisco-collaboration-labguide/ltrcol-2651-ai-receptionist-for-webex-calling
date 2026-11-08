@@ -4,7 +4,7 @@
 
 1. Lauch the Chrome browser from within workstation 1 and go to [https://admin.webex.com](https://admin.webex.com/). Login using the credentials from the Session\_info.txt file from the previous section.
 
-**Note: Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file. **
+**Note: Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.**
 
 ![Source screenshot image12](../assets/images/updated-image12.png){ .lab-screenshot width="1036" loading="lazy" }
 
@@ -18,13 +18,13 @@
 
 ## Step 2: Login to the Webex App
 
-1. The Webex App should already be logged in from within workstation 1 as **Taylor Bard. **If not, you can login using the credentials from the Session\_Info.txt file as shown below. Additionally, login to the Webex App from the physical workstation or your mobile device as the user Charles Holland.
+1. The Webex App should already be logged in from within workstation 1 as **Taylor Bard.** If not, you can login using the credentials from the Session\_Info.txt file as shown below. Additionally, login to the Webex App from the physical workstation or your mobile device as the user Charles Holland.
 
 ![Session_Info.txt credentials for Webex Control Hub and app users](../assets/images/session-info-credentials.png){ .lab-screenshot width="1036" loading="lazy" }
 
 **Note:** Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.
 
-**This task is now completed. Proceed to the next task. **
+**This task is now completed. Proceed to the next task.**
 
 
 

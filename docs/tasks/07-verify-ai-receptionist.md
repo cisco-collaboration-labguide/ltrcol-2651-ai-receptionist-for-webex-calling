@@ -42,12 +42,12 @@ Repeat step 1 and call back into the AI Receptionist. Now ask one of the followi
 
 1. This time the call should be routed to the Webex Contact Center Customer Assist Support queue. This is based on the intent you configured to route calls to this resource for any topics related to Webex Contact Center.
 
-- If you are logged into the **Webex App** as **Taylor Bard** on **Workstation 1 **and **Taylor Bard** is set to **Available**, the call will be forwarded from the queue to Taylor and you will see the incoming call. You can answer or decline the call.
+- If you are logged into the **Webex App** as **Taylor Bard** on **Workstation 1** and **Taylor Bard** is set to **Available**, the call will be forwarded from the queue to Taylor and you will see the incoming call. You can answer or decline the call.
 
-- If you are not logged into the **Webex App** as **Taylor Bard** on **Workstation 1 **or **Taylor** is set to **Unavailable**, the call will wait in the queue for an available agent.
+- If you are not logged into the **Webex App** as **Taylor Bard** on **Workstation 1** or **Taylor** is set to **Unavailable**, the call will wait in the queue for an available agent.
 
 1. If you answered the call, hang up.
 
-**Congratulations! This completes the AI Receptionist for Webex Calling Lab. **
+**Congratulations! This completes the AI Receptionist for Webex Calling Lab.**
 
-**Please take a moment to review this lab from within the Cisco Live App. **
+**Please take a moment to review this lab from within the Cisco Live App.**

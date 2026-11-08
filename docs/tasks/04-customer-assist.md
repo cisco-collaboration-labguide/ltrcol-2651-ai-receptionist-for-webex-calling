@@ -24,19 +24,19 @@ Webex can create announcement audio files with **text-to-speech (TTS)**. You gen
 
     1. **Location**: dCloud
 
-    1. **Label: **Welcome Message
+    1. **Label:** Welcome Message
 
     1. **File name:** Welcome Message.wav
 
-    1. **Text: ***Use the text below in the box*
+    1. **Text:** *Use the text below in the box*
 
 !!! note
 
     Welcome to the support help desk. If you need Webex Calling support, please press 1. If you need Webex Contact Center Support, please press 2. To repeat this menu, please press 9.
 
-    1. **Select Language: **English (default)
+    1. **Select Language:** English (default)
 
-    1. **Select Voice: ***pick any*
+    1. **Select Voice:** *pick any*
 
 ![Source screenshot image50](../assets/images/updated-image50.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -44,7 +44,7 @@ Webex can create announcement audio files with **text-to-speech (TTS)**. You gen
 
 ![Source screenshot image51](../assets/images/updated-image51.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Your **Welcome Message **announcement is now in the announcement repository, marked **Text to speech**. Later you create an Auto Attendant and use it as its greeting.
+1. Your **Welcome Message** announcement is now in the announcement repository, marked **Text to speech**. Later you create an Auto Attendant and use it as its greeting.
 
 ![Source screenshot image52](../assets/images/updated-image52.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -101,7 +101,7 @@ An **Auto Attendant** answers a call with a greeting and a menu, and sends the c
 
 ![Source screenshot image58](../assets/images/updated-image58.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. The **Create Auto Attendant **wizard opens on the **Basics** page. Enter:
+1. The **Create Auto Attendant** wizard opens on the **Basics** page. Enter:
 
     - **Location:** dCloud
 

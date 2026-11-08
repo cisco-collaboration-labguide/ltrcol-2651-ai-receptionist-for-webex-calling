@@ -20,7 +20,7 @@ All components for this lab can be accessed through a web browser.
 
 ## Step 1: Connect to Workstation 1 via Remote Desktop
 
-Connect to the Remote desktop of Workstation 1. On your session topology page, scroll down. Within the **Network** tab, click **Open** for workstation 1 (wkst 1) under the **Link **column as shown below.
+Connect to the Remote desktop of Workstation 1. On your session topology page, scroll down. Within the **Network** tab, click **Open** for workstation 1 (wkst 1) under the **Link** column as shown below.
 
 ![Source screenshot image10](../assets/images/updated-image10.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -28,7 +28,7 @@ This will launch the workstation 1 using Web Remote Desktop. Within Workstation 
 
 ![Source screenshot image11](../assets/images/updated-image11.png){ .lab-screenshot width="1100" loading="lazy" }
 
-**Note: Do not use the usernames and passwords shown in the screenshots in this lab guide. Use the ones presented in your Session\_Info.txt file. **
+**Note: Do not use the usernames and passwords shown in the screenshots in this lab guide. Use the ones presented in your Session\_Info.txt file.**
 
 ![Source screenshot image12](../assets/images/updated-image12.png){ .lab-screenshot width="1036" loading="lazy" }
 

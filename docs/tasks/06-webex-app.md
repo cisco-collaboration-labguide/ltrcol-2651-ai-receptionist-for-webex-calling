@@ -30,7 +30,7 @@ You should already be logged into the Webex App of the classroom workstation (ph
 
 ## Step 2: Workstation 1 – (Taylor Bard logged in to the Webex App)
 
-The Webex App from within workstation 1 (WKST 1) should already be logged in as the user **Taylor Bard, **who is an Agent for Q2. In case you need to login again to the Webex App as Taylor Bard, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 1.
+The Webex App from within workstation 1 (WKST 1) should already be logged in as the user **Taylor Bard,** who is an Agent for Q2. In case you need to login again to the Webex App as Taylor Bard, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 1.
 
 **Note:** Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.
 
@@ -40,7 +40,7 @@ The Webex App from within workstation 1 (WKST 1) should already be logged in as 
 
 ## Step 3: Workstation 2 – (Anita Perez logged in to the Webex App)
 
-Connect to the Remote desktop of Workstation 2. On your session topology page, scroll down. Within the **Network** tab, click **Open** for workstation 2 (wkst 2) under the **Link **column as shown below.
+Connect to the Remote desktop of Workstation 2. On your session topology page, scroll down. Within the **Network** tab, click **Open** for workstation 2 (wkst 2) under the **Link** column as shown below.
 
 ![Source screenshot image94](../assets/images/updated-image94.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -48,9 +48,9 @@ This will launch the workstation 2 using Web Remote Desktop. Within Workstation 
 
 ![Source screenshot image95](../assets/images/updated-image95.png){ .lab-screenshot width="1100" loading="lazy" }
 
-**Note: Do not use the usernames and passwords shown in the screenshots in this lab guide. Use the ones presented in your Session\_Info.txt file. **
+**Note: Do not use the usernames and passwords shown in the screenshots in this lab guide. Use the ones presented in your Session\_Info.txt file.**
 
-The Webex App from within workstation 2 (WKST 2) should already be logged in as the user **Anita Perez, **who is an Agent for Q1. In case you need to login again to the Webex App as Anita Perez, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 2.
+The Webex App from within workstation 2 (WKST 2) should already be logged in as the user **Anita Perez,** who is an Agent for Q1. In case you need to login again to the Webex App as Anita Perez, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 2.
 
 ![Source screenshot image96](../assets/images/updated-image96.png){ .lab-screenshot width="760" loading="lazy" }
 
@@ -58,7 +58,7 @@ The Webex App from within workstation 2 (WKST 2) should already be logged in as 
 
 ## Step 4: Workstation 3 – (Kellie Melby logged in to the Webex App)
 
-Connect to the Remote desktop of Workstation 3. On your session topology page, scroll down. Within the **Network** tab, click **Open** for workstation 3 (wkst 3) under the **Link **column as shown below.
+Connect to the Remote desktop of Workstation 3. On your session topology page, scroll down. Within the **Network** tab, click **Open** for workstation 3 (wkst 3) under the **Link** column as shown below.
 
 ![Source screenshot image97](../assets/images/updated-image97.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -66,12 +66,12 @@ This will launch the workstation 3 using Web Remote Desktop. Within Workstation 
 
 ![Source screenshot image98](../assets/images/updated-image98.png){ .lab-screenshot width="1100" loading="lazy" }
 
-**Note: Do not use the usernames and passwords shown in the screenshots in this lab guide. Use the ones presented in your Session\_Info.txt file. **
+**Note: Do not use the usernames and passwords shown in the screenshots in this lab guide. Use the ones presented in your Session\_Info.txt file.**
 
-The Webex App from within workstation 3 (WKST3) should already be logged in as the user **Kellie Melby, **who is an Agent for Q2. In case you need to login again to the Webex App as Kellie Melby, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 3.
+The Webex App from within workstation 3 (WKST3) should already be logged in as the user **Kellie Melby,** who is an Agent for Q2. In case you need to login again to the Webex App as Kellie Melby, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 3.
 
 ![Source screenshot image99](../assets/images/updated-image99.png){ .lab-screenshot width="744" loading="lazy" }
 
-**This task is now completed. Proceed to the next task. **
+**This task is now completed. Proceed to the next task.**
 
 <br>

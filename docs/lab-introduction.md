@@ -4,7 +4,7 @@
 
 **AI Receptionist for Webex Calling**
 
-**   LTRCOL-2651**
+**LTRCOL-2651**
 
 **Hussain Ali, Technical Marketing Engineer**
 
@@ -20,7 +20,7 @@ Upon completion of this lab, you will:
 
 ## Scenario
 
-In this lab, you will gain hands-on experience in configuring and testing the **AI Receptionist. **This lab provides step-by-step instructions for setting up an AI Receptionist.
+In this lab, you will gain hands-on experience in configuring and testing the **AI Receptionist.** This lab provides step-by-step instructions for setting up an AI Receptionist.
 
 Here are the high-level TASKS to achieve the objectives of this lab:
 

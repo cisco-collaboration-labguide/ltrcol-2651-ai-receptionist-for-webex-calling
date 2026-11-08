@@ -38,7 +38,7 @@ In this step you will create a **Knowledge Base** and add information to it that
 
 !!! note
 
-    **Note:  **
+    **Note:**
     Sometimes it can take up to 30+ minutes to add files to a knowledge base. This is a known caveat engineering is working on.
     You won’t be using it for a while so if needed you can proceed with the rest of the lab and come back later to verify it is configured.
 
@@ -52,7 +52,7 @@ In this step you will create a **Knowledge Base** and add information to it that
 
 ![Source screenshot image24](../assets/images/updated-image24.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click on the **AI By Design Solutions **knowledge base to open it so you can add files.
+1. Click on the **AI By Design Solutions** knowledge base to open it so you can add files.
 
 1. In this lab we have provided text files to help create the Knowledge Base. Double click the **WxC AIR Files** folder on **Workstation 1’s** Desktop.
 
@@ -182,11 +182,11 @@ Now you will configure the AI Receptionist and associate the Knowledge Base you 
 
 1. **Phone Number** = leave it blank, and enter **6023** for the **Extension**
 
-1. **AI Engine **= “**Webex AI Pro 1.0***”*
+1. **AI Engine** = “**Webex AI Pro 1.0***”*
 
 1. **Language and voice** *(feel free to pick your own language and voice from the options)*
 
-    1. **AI receptionist language **= “English (Australia)*”*
+    1. **AI receptionist language** = “English (Australia)*”*
 
     1. **AI receptionist voice** = “Amelia”
 
@@ -214,15 +214,15 @@ Alternatively, you can use the file “***AI Receptionist Config-KB.txt***” th
 
 ---------------------------------------------------------------------
 
-    1. **Receptionist's/Agent’ goal: **
+1. **Receptionist's/Agent’ goal:**
 
 As the AI Receptionist for **AI By Design Solutions**, your role is to assist callers by providing accurate information about our services, answering basic inquiries, and professionally redirecting calls to the right support team or the designated operator when needed. Always maintain a polite, professional, and approachable tone to ensure a positive caller experience.
 
-    1. **Welcome Message:**
+1. **Welcome Message:**
 
 Hello, thank you for calling **AI By Design Solutions**. How can I assist you today?
 
-    1. **Instructions/Receptionist Guidelines:**
+1. **Instructions/Receptionist Guidelines:**
 
 1.Identity
 

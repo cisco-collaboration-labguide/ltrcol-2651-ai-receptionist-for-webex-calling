@@ -12,7 +12,7 @@ You will now configure the AI Receptionist to send calls to the Customer Assist 
     You can define a maximum of 9 intents.
     There is also the Default Action created for each AI Receptionist, which gives a total of 10 intents for transferring calls from the AI Receptionist to a user, resource (e.g. Customer Assist queue), Org contact or number.
 
-In this lab you will add 2 intents for your **AI By Design Solutions **AI Receptionist:
+In this lab you will add 2 intents for your **AI By Design Solutions** AI Receptionist:
 
 1) Transfer calls to the **Webex Calling Support Customer Assist queue** when a caller needs help with Webex Calling questions or issues
 
@@ -30,17 +30,17 @@ In this lab you will add 2 intents for your **AI By Design Solutions **AI Recept
 
 ![Source screenshot image87](../assets/images/updated-image87.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Add Intentions**: **AI By Design Solutions **page, use the following settings to configure the first intent.
+1. On the **Add Intentions**: **AI By Design Solutions** page, use the following settings to configure the first intent.
 
-These settings are also in the **AI Receptionist Config.txt** file in the **WxC AIR Files **folder **on Workstation 1’s desktop**. You can use this file to copy/paste the information into the configuration.
+These settings are also in the **AI Receptionist Config.txt** file in the **WxC AIR Files** folder **on Workstation 1’s desktop**. You can use this file to copy/paste the information into the configuration.
 
 **Intent name** = WxC\_Support
 
-**Intent Description **= If a caller needs help with Webex Calling questions or features or needs help troubleshooting, configuring, or setting up Webex Calling, transfer the call to the Webex Calling Support Customer Assist queue.
+**Intent Description** = If a caller needs help with Webex Calling questions or features or needs help troubleshooting, configuring, or setting up Webex Calling, transfer the call to the Webex Calling Support Customer Assist queue.
 
-**Transfer to **=
+**Transfer to** =
 
-**Contact Type **= Resource
+**Contact Type** = Resource
 
 **Contact** = Q1\_WebexCallingSupport
 
@@ -50,15 +50,15 @@ These settings are also in the **AI Receptionist Config.txt** file in the **WxC 
 
 1. You will repeat this process to add a 2<sup>nd</sup> intent. Use the following settings to configure the second intent.
 
-These settings are also in the **AI Receptionist Config.txt** file in the **WxC AIR Files **folder **on Workstation 1’s desktop**. You can use this file to copy/paste the information into the configuration.
+These settings are also in the **AI Receptionist Config.txt** file in the **WxC AIR Files** folder **on Workstation 1’s desktop**. You can use this file to copy/paste the information into the configuration.
 
 **Intent name** = WxCC\_Support
 
-**Intent Description **= If a caller needs help with Webex Contact Center questions or features or needs help troubleshooting, configuring, or setting up Webex Contact Center, transfer the call to the Webex Contact Center Support Customer Assist queue.
+**Intent Description** = If a caller needs help with Webex Contact Center questions or features or needs help troubleshooting, configuring, or setting up Webex Contact Center, transfer the call to the Webex Contact Center Support Customer Assist queue.
 
-**Transfer to **=
+**Transfer to** =
 
-**Contact Type **= Resource
+**Contact Type** = Resource
 
 **Contact** = Q2\_WebexContactCenterSupport
 
@@ -70,7 +70,7 @@ These settings are also in the **AI Receptionist Config.txt** file in the **WxC 
 
 ![Source screenshot image90](../assets/images/updated-image90.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Intents** page for the **AI By Design Solutions **AI Receptionist, you will see the 2 newly added intents
+1. On the **Intents** page for the **AI By Design Solutions** AI Receptionist, you will see the 2 newly added intents
 
 <br>
 
@@ -102,6 +102,6 @@ Dial the AI Receptionist (**6023**).
 
 1. You will hear the AI Receptionist greeting.
 
-**This task is now completed. Proceed to the next task. **
+**This task is now completed. Proceed to the next task.**
 
 <br>

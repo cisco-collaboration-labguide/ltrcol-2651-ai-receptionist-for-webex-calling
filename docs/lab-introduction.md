@@ -30,7 +30,7 @@ Here are the high-level TASKS to achieve the objectives of this lab:
 
 - TASK 3: Configure an AI Receptionist
 
-- Task 4: Prepare Webex Calling Customer Assist
+- TASK 4: Prepare Webex Calling Customer Assist
 
 - TASK 5: Configure intent-based routing for the AI Receptionist
 

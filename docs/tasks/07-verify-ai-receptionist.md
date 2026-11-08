@@ -1,4 +1,4 @@
-# Task 7: Verify the AI Receptionist \[10 minutes\]
+# Task 7: Verify the AI Receptionist
 
 You will now test the AI Receptionist you built, by calling the assigned number and interacting with it using natural language.
 
@@ -10,7 +10,7 @@ You will now test the AI Receptionist you built, by calling the assigned number 
 | --- | --- | --- | --- |
 | **Charles Holland** | 6018 | Caller / Customer | Physical workstation |
 | **AI Receptionist** | 6023 | Interactive Agent | Call from Charles Holland (Webex App) |
-| **Anita Perez** | 6017 | Operator / Human Agent | Not log into Webex App – call sent to her Voicemail<br>Logged into Webex App – call sent to her Webex App |
+| **Anita Perez** | 6017 | Operator / Human Agent | If not logged into the Webex App – the call is sent to her Voicemail<br>Logged into the Webex App – the call is sent to her Webex App |
 
 ## Step 1: Call the AI Receptionist
 

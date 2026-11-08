@@ -34,7 +34,7 @@ Why This Matters:
 
 ## What You Will Build in This Lab:
 
-In this lab, you will configure your own AI Receptionist for a Cisco collaboration consulting firm.
+In this lab, you will configure your own AI Receptionist for a Cisco collaboration consulting firm called AI by Design Solutions.
 
 ![Source screenshot image19](assets/images/updated-image19.png){ .lab-screenshot width="1100" loading="lazy" }
 

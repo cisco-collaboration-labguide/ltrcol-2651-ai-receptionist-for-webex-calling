@@ -22,6 +22,8 @@
 
 ![Source screenshot image16](../assets/images/updated-image16.png){ .lab-screenshot width="1036" loading="lazy" }
 
+**Note:** Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.
+
 **This task is now completed. Proceed to the next task. **
 
 

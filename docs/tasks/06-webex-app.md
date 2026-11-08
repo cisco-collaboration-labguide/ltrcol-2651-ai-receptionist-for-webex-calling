@@ -1,4 +1,4 @@
-# Task 6: Login Test Users into the Webex App \[10 minutes\]
+# Task 6: Login Test Users into the Webex App
 
 Let’s ensure you are logged into the Webex App as per the table below.
 
@@ -24,11 +24,15 @@ The Customer Assist roles for this lab are as shown below
 
 You should already be logged into the Webex App of the classroom workstation (physical workstation) as the user **Charles Holland** to simulate a caller.
 
+**Note:** Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.
+
 <br>
 
 ## Step 2: Workstation 1 – (Taylor Bard logged in to the Webex App)
 
 The Webex App from within workstation 1 (WKST 1) should already be logged in as the user **Taylor Bard, **who is an Agent for Q2. In case you need to login again to the Webex App as Taylor Bard, the credentials can be found in the Session\_Info.txt file placed on the Desktop of WKST 1.
+
+**Note:** Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.
 
 ![Source screenshot image93](../assets/images/updated-image93.png){ .lab-screenshot width="1028" loading="lazy" }
 

@@ -1,4 +1,4 @@
-# Task 5: AI Receptionist Intent-Based Routing \[10 minutes\]
+# Task 5: AI Receptionist Intent-Based Routing
 
 You will now configure the AI Receptionist to send calls to the Customer Assist queues. For each queue you will define the criteria that the AI Receptionist will use to determine when to route the call to it.
 
@@ -86,7 +86,7 @@ These settings are also in the **AI Receptionist Config.txt** file in the **WxC 
 
     **Note:**
     **For the remaining tasks that require calls to test the features, you can test as follows:**
-    **From the Webex App on your physical workstation or mobile phone (logged in as Charles Holland) dial the extension you configured for the AI Receptionist (6023) or Auto Attendant (6500)**
+    **From the Webex App on your physical workstation or mobile phone (logged in as Charles Holland) dial the extension you configured for the AI Receptionist (6023)**
 
 ### Dial from the Webex App of your physical workstation
 
@@ -94,7 +94,7 @@ These settings are also in the **AI Receptionist Config.txt** file in the **WxC 
 
 1. Click on the “*Calling*” page in the menu on the left side of the Webex App. You can use the “*Seach or dial*” window or keypad to dial an extension and place the call.
 
-Dial the Auto Attendant (**6500**) for the **Support Desk IVR** or dial the AI Receptionist (**6023**).
+Dial the AI Receptionist (**6023**).
 
 1. Press the “*handset*” icon to initiate the call. Type 6023 in “Search or dial”
 

@@ -1,4 +1,4 @@
-# Task 4: Prepare Webex Calling Customer Assist \[10 minutes\]
+# Task 4: Prepare Webex Calling Customer Assist
 
 In this task you build the pieces that the Auto Attendant and the Customer Assist queues need, all in Collaboration Control Hub:
 
@@ -15,8 +15,6 @@ In this task you build the pieces that the Auto Attendant and the Customer Assis
 In this step, you create the greeting callers hear when they reach the Auto Attendant. You don't need an audio file: you type the text, and Webex turns it into speech.
 
 Webex can create announcement audio files with **text-to-speech (TTS)**. You generate audio messages directly from written text, which makes it easier to create and manage audio announcements in the Webex Calling announcement repository. You can manage and update TTS announcements in one central place, with dynamic control over every announcement that uses the repository.
-
-TTS also works across the supported features, allows rich customization with SSML tags for expressive, natural-sounding speech, and offers several voice and gender options to suit your business.
 
 1. In Collaboration Control Hub, go to **SERVICES &gt; Calling**, click the **Features** tab, then click **Add new** on the **Announcements** card.
 
@@ -84,7 +82,7 @@ The next screen shows the new **OfficeHours** schedule.
 
 ## Step 3: Create an Auto Attendant
 
-An **Auto Attendant** answers a call with a greeting and a menu, and sends the caller where they choose: "press 1 for…, press 2 for…". In this task you create the **SupportDeskIVR** Auto Attendant from scratch in Collaboration Control Hub. It plays the **Welcome Message** you created with text-to-speech, follows the **OfficeHours** schedule, and sends callers to the two support queues you create in the next task.
+An **Auto Attendant** answers a call with a greeting and a menu, and sends the caller where they choose: "press 1 for…, press 2 for…". In this task you create the **SupportDeskIVR** Auto Attendant from scratch in Collaboration Control Hub. It plays the **Welcome Message** you created with text-to-speech earlier, follows the **OfficeHours** schedule, and sends callers to the two support queues you create in the next task.
 
 | **Setting** | **Value** |
 | --- | --- |
@@ -167,7 +165,7 @@ Extensions 6501 and 6502 belong to the Customer Assist queues you will create ne
 
 ## Step 4: Create the Queues
 
-In this task you create the two Customer Assist queues in Collaboration Control Hub. They are where the Auto Attendant (keys 1 and 2) and, later, the AI Receptionist send callers who need help.
+In this task you create the two Customer Assist queues in the Collaboration Control Hub. They are where the Auto Attendant (keys 1 and 2) and, later, the AI Receptionist send callers who need help.
 
 | **Queue name** | **Extension** | **Agents** | **Call routing** |
 | --- | --- | --- | --- |

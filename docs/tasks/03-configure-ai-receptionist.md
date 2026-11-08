@@ -20,7 +20,7 @@ You have three options to create the **AI Receptionist** and the **Knowledge Bas
 
 \#2 – Create the **AI Receptionist** first and create the **Knowledge Base** later
 
-\#3 - Create the **Knowledge Base** first and assign it to the **AI Receptionist** when you create it.
+\#3 – Create the **Knowledge Base** first and assign it to the **AI Receptionist** when you create it.
 
 We will use **Option \#3** (create the Knowledge Base first and assign it to the AI Receptionist when you create it) for this lab.
 

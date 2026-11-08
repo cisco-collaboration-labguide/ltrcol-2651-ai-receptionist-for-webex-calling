@@ -4,7 +4,7 @@ All components for this lab can be accessed through a web browser.
 
 1. Open a browser on your physical workstation and go to [https://www.ciscodcloud.com/apps/expo/7jxnau30vieczrhyqf3e3q371](https://www.ciscodcloud.com/apps/expo/7jxnau30vieczrhyqf3e3q371){ .lab-external-link target="_blank" rel="noopener noreferrer" }
 
-1. Click **Explore** for LTRCOL-2651. <br>
+1. Click <strong>Explore</strong> for LTRCOL-2651. <br>
 
     ![Source screenshot image7](../assets/images/updated-image7.png){ .lab-screenshot width="1042" loading="lazy" }
 

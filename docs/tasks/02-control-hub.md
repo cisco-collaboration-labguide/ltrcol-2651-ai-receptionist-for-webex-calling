@@ -20,7 +20,7 @@
 
 1. The Webex App should already be logged in from within workstation 1 as **Taylor Bard. **If not, you can login using the credentials from the Session\_Info.txt file as shown below. Additionally, login to the Webex App from the physical workstation or your mobile device as the user Charles Holland.
 
-![Source screenshot image16](../assets/images/updated-image16.png){ .lab-screenshot width="1036" loading="lazy" }
+![Session_Info.txt credentials for Webex Control Hub and app users](../assets/images/session-info-credentials.png){ .lab-screenshot width="1036" loading="lazy" }
 
 **Note:** Do not use the username and password shown in the screenshots in this lab guide. Use the one presented in your Session\_Info.txt file.
 

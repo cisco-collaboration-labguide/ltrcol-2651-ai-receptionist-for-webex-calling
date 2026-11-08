@@ -21,11 +21,11 @@
 .md-typeset p { margin: .75em 0 1em; }
 .md-typeset a.lab-external-link,
 .md-typeset a.lab-external-link:visited {
-  color: #0057ff;
-  text-decoration: underline;
+  color: #0057ff !important;
+  text-decoration: underline !important;
   text-underline-offset: .12em;
 }
-.md-typeset a.lab-external-link:hover { color: #003bb5; }
+.md-typeset a.lab-external-link:hover { color: #003bb5 !important; }
 .md-typeset h1 {
   color: #0d274d;
   font-size: 1.9rem;

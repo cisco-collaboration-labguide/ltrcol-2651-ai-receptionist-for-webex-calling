@@ -42,7 +42,7 @@ In this step you will create a **Knowledge Base** and add information to it that
     Sometimes it can take up to 30+ minutes to add files to a knowledge base. This is a known caveat engineering is working on.
     You won’t be using it for a while so if needed you can proceed with the rest of the lab and come back later to verify it is configured.
 
-1. For the **Knowledge base name** enter “*AI By Design **Solutions*” and “*FAQ*” for the **Description**. You can add more details if you would like it for your future reference.
+1. For the **Knowledge base name** enter “*AI By Design Solutions*” and “*FAQ*” for the **Description**. You can add more details if you would like it for your future reference.
 
 1. Click **Create**
 

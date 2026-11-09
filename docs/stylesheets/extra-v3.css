@@ -305,3 +305,20 @@ html:has(.home-hero) .md-main__inner { margin-top: 0 !important; }
     transform: translate(-14.7px, -33.6px);
   }
 }
+
+/* Keep custom light-mode typography readable when Material's dark palette is active. */
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #72d5ed;
+  --md-typeset-a-color: #8bdcf2;
+}
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2 { color: #e6f2fb; }
+[data-md-color-scheme="slate"] .md-typeset h2 { border-bottom-color: #526475; }
+[data-md-color-scheme="slate"] .md-typeset h3 { color: #c6e6f7; }
+[data-md-color-scheme="slate"] .md-typeset h4 { color: #acd8ed; }
+[data-md-color-scheme="slate"] .md-typeset strong { color: #f1f7fc; }
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__title { color: #e6f2fb; }
+[data-md-color-scheme="slate"] .md-nav__link--active { color: #72d5ed; }
+[data-md-color-scheme="slate"] .md-typeset a.lab-external-link,
+[data-md-color-scheme="slate"] .md-typeset a.lab-external-link:visited { color: #8bdcf2 !important; }
+[data-md-color-scheme="slate"] .md-typeset a.lab-external-link:hover { color: #b7effa !important; }

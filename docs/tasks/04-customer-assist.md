@@ -20,31 +20,31 @@ Webex can create announcement audio files with **text-to-speech (TTS)**. You gen
 
 ![Source screenshot image49](../assets/images/updated-image49.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the new announcement page, click the **Text to speech** tab. Use these details, then click **Generate**:
+2. On the new announcement page, click the **Text to speech** tab. Use these details, then click **Generate**:
 
-    1. **Location**: dCloud
-
-    1. **Label:** Welcome Message
-
-    1. **File name:** Welcome Message.wav
-
-    1. **Text:** *Use the text below in the box*
+    <ol type="a">
+      <li><strong>Location:</strong> dCloud</li>
+      <li><strong>Label:</strong> Welcome Message</li>
+      <li><strong>File name:</strong> Welcome Message.wav</li>
+      <li><strong>Text:</strong> <em>Use the text below in the box</em></li>
+    </ol>
 
 !!! note
 
     Welcome to the support help desk. If you need Webex Calling support, please press 1. If you need Webex Contact Center Support, please press 2. To repeat this menu, please press 9.
 
-    1. **Select Language:** English (default)
-
-    1. **Select Voice:** *pick any*
+    <ol type="a" start="5">
+      <li><strong>Select Language:</strong> English (default)</li>
+      <li><strong>Select Voice:</strong> <em>pick any</em></li>
+    </ol>
 
 ![Source screenshot image50](../assets/images/updated-image50.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Generating the file takes a few seconds. When it’s ready, play the prompt to check it, then click **Save.**
+3. Generating the file takes a few seconds. When it’s ready, play the prompt to check it, then click **Save.**
 
 ![Source screenshot image51](../assets/images/updated-image51.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Your **Welcome Message** announcement is now in the announcement repository, marked **Text to speech**. Later you create an Auto Attendant and use it as its greeting.
+4. Your **Welcome Message** announcement is now in the announcement repository, marked **Text to speech**. Later you create an Auto Attendant and use it as its greeting.
 
 ![Source screenshot image52](../assets/images/updated-image52.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -56,21 +56,21 @@ Schedules support several calling features, such as the Auto Attendant. A schedu
 
 ![Source screenshot image53](../assets/images/updated-image53.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click the **Calling** tab. Scroll down to the **Calling features settings** section and click **Schedules**.
+2. Click the **Calling** tab. Scroll down to the **Calling features settings** section and click **Schedules**.
 
 ![Source screenshot image54](../assets/images/updated-image54.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click **Add schedule**.
+3. Click **Add schedule**.
 
 ![Source screenshot image55](../assets/images/updated-image55.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. For **Schedule name** enter OfficeHours, and for Schedule type select **Business Hours**.
+4. For **Schedule name** enter OfficeHours, and for Schedule type select **Business Hours**.
 
-1. Set the hours of operation to **07:00 AM to 11:00 PM** for **Monday to Friday**.
+5. Set the hours of operation to **07:00 AM to 11:00 PM** for **Monday to Friday**.
 
-1. Leave **Sunday** and **Saturday** unchecked.
+6. Leave **Sunday** and **Saturday** unchecked.
 
-1. Uncheck **Lunch Break** at the bottom. Click **Save** when you're done.
+7. Uncheck **Lunch Break** at the bottom. Click **Save** when you're done.
 
 ![Source screenshot image56](../assets/images/updated-image56.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -101,7 +101,7 @@ An **Auto Attendant** answers a call with a greeting and a menu, and sends the c
 
 ![Source screenshot image58](../assets/images/updated-image58.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. The **Create Auto Attendant** wizard opens on the **Basics** page. Enter:
+2. The **Create Auto Attendant** wizard opens on the **Basics** page. Enter:
 
     - **Location:** dCloud
 
@@ -113,15 +113,15 @@ An **Auto Attendant** answers a call with a greeting and a menu, and sends the c
 
 ![Source screenshot image59](../assets/images/updated-image59.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click **Next**. On the **Business Schedule** page, select the **OfficeHours** schedule you created earlier. Click **Next**.
+3. Click **Next**. On the **Business Schedule** page, select the **OfficeHours** schedule you created earlier. Click **Next**.
 
 ![Source screenshot image60](../assets/images/updated-image60.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Holiday Schedule** page, leave it empty and click **Next**.
+4. On the **Holiday Schedule** page, leave it empty and click **Next**.
 
 ![Source screenshot image61](../assets/images/updated-image61.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Menu** page, set up the **Business Hours** menu:
+5. On the **Menu** page, set up the **Business Hours** menu:
 
     - **Press 1: Transfer call with prompt**, to extension **6501**
 
@@ -149,7 +149,7 @@ Extensions 6501 and 6502 belong to the Customer Assist queues you will create ne
 
 ![Source screenshot image64](../assets/images/updated-image64.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click **Next**. On the **Greeting** page, choose a **Custom greeting** and select the **Welcome Message** announcement you created with text-to-speech. Click **Next**.
+6. Click **Next**. On the **Greeting** page, choose a **Custom greeting** and select the **Welcome Message** announcement you created with text-to-speech. Click **Next**.
 
 ![Source screenshot image65](../assets/images/updated-image65.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -157,7 +157,7 @@ Extensions 6501 and 6502 belong to the Customer Assist queues you will create ne
 
 ![Source screenshot image67](../assets/images/updated-image67.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Review** page, check your settings and click **Create**.
+7. On the **Review** page, check your settings and click **Create**.
 
 ![Source screenshot image68](../assets/images/updated-image68.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -176,7 +176,7 @@ In this task you create the two Customer Assist queues in the Collaboration Cont
 
 ![Source screenshot image69](../assets/images/updated-image69.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Basics** page, enter:
+2. On the **Basics** page, enter:
 
 - **Location**: dCloud
 
@@ -192,27 +192,27 @@ In this task you create the two Customer Assist queues in the Collaboration Cont
 
 ![Source screenshot image70](../assets/images/updated-image70.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. For **Call routing**, choose **Priority based** with **Longest idle**, so each call goes to the agent who has been waiting longest. Click **Next**.
+3. For **Call routing**, choose **Priority based** with **Longest idle**, so each call goes to the agent who has been waiting longest. Click **Next**.
 
 ![Source screenshot image71](../assets/images/updated-image71.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Keep the default overflow and announcement settings, and click **Next** on each page until you reach **Agents**.
+4. Keep the default overflow and announcement settings, and click **Next** on each page until you reach **Agents**.
 
 ![Source screenshot image72](../assets/images/updated-image72.png){ .lab-screenshot width="1100" loading="lazy" }
 
 ![Source screenshot image73](../assets/images/updated-image73.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Agents** page, search for and add **Anita Perez** and **Kellie Melby**. Click **Next**.
+5. On the **Agents** page, search for and add **Anita Perez** and **Kellie Melby**. Click **Next**.
 
 ![Source screenshot image74](../assets/images/updated-image74.png){ .lab-screenshot width="1100" loading="lazy" }
 
 ![Source screenshot image75](../assets/images/updated-image75.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Review** page, check your settings and click **Create**.
+6. On the **Review** page, check your settings and click **Create**.
 
 ![Source screenshot image76](../assets/images/updated-image76.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Repeat \#1 to \#6 for the second queue, with these differences:
+7. Repeat \#1 to \#6 for the second queue, with these differences:
 
 - **Queue name**: Q2\_WebexContactCenterSupport
 
@@ -240,7 +240,7 @@ In this task you create the two Customer Assist queues in the Collaboration Cont
 
 ![Source screenshot image83](../assets/images/updated-image83.png){ .lab-screenshot width="1044" loading="lazy" }
 
-1. Both queues are now on the Customer Assist **Queues** page: **Q1\_WebexCallingSupport** with extension **6501**, and **Q2\_WebexContactCenterSupport** with extension **6502**.
+8. Both queues are now on the Customer Assist **Queues** page: **Q1\_WebexCallingSupport** with extension **6501**, and **Q2\_WebexContactCenterSupport** with extension **6502**.
 
 ![Source screenshot image84](../assets/images/updated-image84.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -250,7 +250,7 @@ In this task you create the two Customer Assist queues in the Collaboration Cont
 
 1. From the Webex App of your local machine, logged in as Charles Holland, dial **6500**.
 
-1. You hear the greeting you created with text-to-speech: “*Welcome to the support help desk… *”. If you do not press anything, the menu repeats twice and the call goes to Anita’s voicemail.
+2. You hear the greeting you created with text-to-speech: “*Welcome to the support help desk… *”. If you do not press anything, the menu repeats twice and the call goes to Anita’s voicemail.
 
 **CALLING OUTSIDE OFFICE HOURS?**
 
@@ -260,9 +260,9 @@ If that happens, open the schedule for the whole week:
 
 1. Go to **MANAGEMENT &gt; Locations &gt; dCloud &gt; Calling &gt; Schedules**, and click **OfficeHours**.
 
-1. Edit each day, **including Saturday and Sunday**, and set it to **All day**.
+2. Edit each day, **including Saturday and Sunday**, and set it to **All day**.
 
-1. Click **Save**, then call 6500 again.
+3. Click **Save**, then call 6500 again.
 
 The office is now open 24/7, so every test call in the rest of the lab reaches the business hours menu.
 

@@ -52,11 +52,11 @@ You will need 4 Webex App logins to test calls in this lab:
 
 1. Webex tenant user **Charles Holland** (cholland@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from the classroom workstation (physical workstation) or your mobile phone.
 
-1. Webex tenant user **Taylor Bard** (tbard@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 1 (WKST 1 – virtual workstation)
+2. Webex tenant user **Taylor Bard** (tbard@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 1 (WKST 1 – virtual workstation)
 
-1. Webex tenant user **Anita Perez** (aperez@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 2 (WKST 2 – virtual workstation)
+3. Webex tenant user **Anita Perez** (aperez@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 2 (WKST 2 – virtual workstation)
 
-1. Webex tenant user **Kellie Melbie** (kmelby@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 3 (WKST 3 – virtual workstation)
+4. Webex tenant user **Kellie Melbie** (kmelby@&lt;**your pod’s FQDN**&gt;) must be logged into the Webex App from workstation 3 (WKST 3 – virtual workstation)
 
 | **User** | **Mail ID** | **Directory Number** | **Webex App Login From** |
 | --- | --- | --- | --- |

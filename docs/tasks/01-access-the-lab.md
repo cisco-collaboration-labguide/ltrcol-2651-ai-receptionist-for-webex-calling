@@ -4,15 +4,15 @@ All components for this lab can be accessed through a web browser.
 
 1. Open a browser on your physical workstation and go to [https://www.ciscodcloud.com/apps/expo/7jxnau30vieczrhyqf3e3q371](https://www.ciscodcloud.com/apps/expo/7jxnau30vieczrhyqf3e3q371){ .lab-external-link target="_blank" rel="noopener noreferrer" }
 
-1. Click <strong>Explore</strong> for LTRCOL-2651. <br>
+2. Click <strong>Explore</strong> for LTRCOL-2651. <br>
 
     ![Source screenshot image7](../assets/images/updated-image7.png){ .lab-screenshot width="1042" loading="lazy" }
 
-1. Enter your email and click **Launch.**
+3. Enter your email and click **Launch.**
 
 ![Source screenshot image8](../assets/images/updated-image8.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. You will be automatically assigned to a lab pod, and you will be taken to the Lab homepage as shown below.
+4. You will be automatically assigned to a lab pod, and you will be taken to the Lab homepage as shown below.
 
 ![Source screenshot image9](../assets/images/updated-image9.png){ .lab-screenshot width="1100" loading="lazy" }
 

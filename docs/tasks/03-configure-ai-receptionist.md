@@ -6,11 +6,11 @@ In this task you will configure a Knowledge Base for an AI Receptionist and then
 
 1. In Collaboration Control Hub, click SERVICES &gt; Calling.
 
-1. Select the **AI Receptionist** tab from the top menu.
+2. Select the **AI Receptionist** tab from the top menu.
 
 ![Source screenshot image20](../assets/images/updated-image20.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. You will see screen below.
+3. You will see screen below.
 
 ![Source screenshot image21](../assets/images/updated-image21.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -42,23 +42,23 @@ In this step you will create a **Knowledge Base** and add information to it that
     Sometimes it can take up to 30+ minutes to add files to a knowledge base. This is a known caveat engineering is working on.
     You won’t be using it for a while so if needed you can proceed with the rest of the lab and come back later to verify it is configured.
 
-1. For the **Knowledge base name** enter “*AI By Design Solutions*” and “*FAQ*” for the **Description**. You can add more details if you would like it for your future reference.
+3. For the **Knowledge base name** enter “*AI By Design Solutions*” and “*FAQ*” for the **Description**. You can add more details if you would like it for your future reference.
 
-1. Click **Create**
+4. Click **Create**
 
 ![Source screenshot image23](../assets/images/updated-image23.png){ .lab-screenshot width="714" loading="lazy" }
 
-1. Once added you should see the new **Knowledge Base** with “0” files. Now you will add some files to it.
+5. Once added you should see the new **Knowledge Base** with “0” files. Now you will add some files to it.
 
 ![Source screenshot image24](../assets/images/updated-image24.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click on the **AI By Design Solutions** knowledge base to open it so you can add files.
+6. Click on the **AI By Design Solutions** knowledge base to open it so you can add files.
 
-1. In this lab we have provided text files to help create the Knowledge Base. Double click the **WxC AIR Files** folder on **Workstation 1’s** Desktop.
+7. In this lab we have provided text files to help create the Knowledge Base. Double click the **WxC AIR Files** folder on **Workstation 1’s** Desktop.
 
 ![Source screenshot image25](../assets/images/updated-image25.png){ .lab-screenshot .lab-compact width="222" loading="lazy" }
 
-1. In this folder right clicking the file **AI By Design Solutions-KB.txt** and select *Edit with Notepad++* to open the file.<br><br>Please take a moment to review the Questions and Answers in the file.
+8. In this folder right clicking the file **AI By Design Solutions-KB.txt** and select *Edit with Notepad++* to open the file.<br><br>Please take a moment to review the Questions and Answers in the file.
 
 ![Source screenshot image26](../assets/images/updated-image26.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -72,35 +72,35 @@ In this step you will create a **Knowledge Base** and add information to it that
 
 ![Source screenshot image27](../assets/images/updated-image27.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **AI By Design Solutions Knowledge Base** configuration page, click the **Add** button to add files to it.
+9. On the **AI By Design Solutions Knowledge Base** configuration page, click the **Add** button to add files to it.
 
     ![Source screenshot image28](../assets/images/updated-image28.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. On the **Upload** tab, click *Choose a file*. You can also drag and drop files to add them.
+10. On the **Upload** tab, click *Choose a file*. You can also drag and drop files to add them.
 
 ![Source screenshot image29](../assets/images/updated-image29.png){ .lab-screenshot width="1100" loading="lazy" }
 
 The information in the files that are added is used by the AI Receptionist to help answer FAQs for callers. You may notice there is also an option for **Create**, which we will use later in the lab.
 
-1. Select the file ***AI By Design Solutions**-KB.txt*** from the **WxC AIR Files** folder on **Workstation 1’s** Desktop and click ‘***Open*’**.
+11. Select the file ***AI By Design Solutions**-KB.txt*** from the **WxC AIR Files** folder on **Workstation 1’s** Desktop and click ‘***Open*’**.
 
 ![Source screenshot image30](../assets/images/updated-image30.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Verify the file you selected and click ‘***Add*’** to upload the file to the Knowledge Base
+12. Verify the file you selected and click ‘***Add*’** to upload the file to the Knowledge Base
 
 ![Source screenshot image31](../assets/images/updated-image31.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. A confirmation toast notification will appear at the bottom right of the screen once the upload is complete.<br><br>You can verify your file has been added successfully by checking that it is listed as a file under the **AI By Design Solutions** Knowledge Base as shown below.
+13. A confirmation toast notification will appear at the bottom right of the screen once the upload is complete.<br><br>You can verify your file has been added successfully by checking that it is listed as a file under the **AI By Design Solutions** Knowledge Base as shown below.
 
 ![Source screenshot image32](../assets/images/updated-image32.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Now instead of uploading a doc, you will create a text-based document to add to the Knowledge Base. On the **AI By Design Solutions Knowledge Base** page, click ‘***Add’***.
+14. Now instead of uploading a doc, you will create a text-based document to add to the Knowledge Base. On the **AI By Design Solutions Knowledge Base** page, click ‘***Add’***.
 
 ![Source screenshot image33](../assets/images/updated-image33.png){ .lab-screenshot width="1100" loading="lazy" }
 
 <br>
 
-1. Click on ‘***Create*’** tab and enter the following details:
+15. Click on ‘***Create*’** tab and enter the following details:
 
 - **Name** = AfterHour\_Rates
 
@@ -134,13 +134,13 @@ Prices below are the list price of the warranties before contract negotiation.
 
 ![Source screenshot image35](../assets/images/updated-image35.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click ‘***Add*’** to save the new document in the Knowledge Base.
+16. Click ‘***Add*’** to save the new document in the Knowledge Base.
 
 ![Source screenshot image36](../assets/images/updated-image36.png){ .lab-screenshot width="1100" loading="lazy" }
 
 <br>
 
-1. Now you should see two files under the **AI By Design Solutions** Knowledge Base:
+17. Now you should see two files under the **AI By Design Solutions** Knowledge Base:
 
 - File based
 
@@ -152,11 +152,11 @@ Prices below are the list price of the warranties before contract negotiation.
 
     **Note:**
     If you see a continuous spinning circle next to the file name and the following toast notification, then the file creation process is taking longer to complete (which is a known caveat):
-    Give it a couple of minutes and then try refreshing the browser and see if the file has completed the upload process
-    If that does not work, proceed with the rest of the AI Receptionist configuration and come back later to check
+    1. Give it a couple of minutes and then try refreshing the browser and see if the file has completed the upload process.
+    2. If that does not work, proceed with the rest of the AI Receptionist configuration and come back later to check.
     ![Source screenshot image38](../assets/images/updated-image38.png){ .lab-screenshot .lab-compact width="512" loading="lazy" }
 
-1. If you click on the ‘***Knowledge Base***’ link at the top left of the page, you will see there are now 2 files in the **AI By Design Solutions Knowledge Base**, but the Knowledge Base is not **Assigned** to an AI Receptionist yet.
+18. If you click on the ‘***Knowledge Base***’ link at the top left of the page, you will see there are now 2 files in the **AI By Design Solutions Knowledge Base**, but the Knowledge Base is not **Assigned** to an AI Receptionist yet.
 
 ![Source screenshot image39](../assets/images/updated-image39.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -168,7 +168,7 @@ Now you will configure the AI Receptionist and associate the Knowledge Base you 
 
 1. Go to **SERVICES &gt; Calling** and click the **AI Receptionist** tab at the top of the page, then the **AI Receptionists** tab.
 
-1. On the **AI Receptionists** page, click **Create** or **Create AI receptionist** to set up a new AI Receptionist.
+2. On the **AI Receptionists** page, click **Create** or **Create AI receptionist** to set up a new AI Receptionist.
 
 ![Source screenshot image40](../assets/images/updated-image40.png){ .lab-screenshot width="1100" loading="lazy" }
 
@@ -176,27 +176,24 @@ Now you will configure the AI Receptionist and associate the Knowledge Base you 
 
 1. On the General settings window, use the following configuration:
 
-1. **Location** = “**dCloud**” *(from the dropdown menu)*
-
-1. **AI Receptionist Name** = **"AI By Design Solutions"** *(unique name)*
-
-1. **Phone Number** = leave it blank, and enter **6023** for the **Extension**
-
-1. **AI Engine** = “**Webex AI Pro 1.0***”*
-
-1. **Language and voice** *(feel free to pick your own language and voice from the options)*
-
-    1. **AI receptionist language** = “English (Australia)*”*
-
-    1. **AI receptionist voice** = “Amelia”
-
-1. **Direct line caller ID name** = select ‘Display name: **AI By Design Solutions**’
-
-1. **Dial by name** = “**AI By Design Solutions**”
+    <ol type="a">
+      <li><strong>Location</strong> = “<strong>dCloud</strong>” <em>(from the dropdown menu)</em></li>
+      <li><strong>AI Receptionist Name</strong> = <strong>"AI By Design Solutions"</strong> <em>(unique name)</em></li>
+      <li><strong>Phone Number</strong> = leave it blank, and enter <strong>6023</strong> for the <strong>Extension</strong></li>
+      <li><strong>AI Engine</strong> = “<strong>Webex AI Pro 1.0</strong>”</li>
+      <li><strong>Language and voice</strong> <em>(feel free to pick your own language and voice from the options)</em>
+        <ol type="a">
+          <li><strong>AI receptionist language</strong> = “English (Australia)”</li>
+          <li><strong>AI receptionist voice</strong> = “Amelia”</li>
+        </ol>
+      </li>
+      <li><strong>Direct line caller ID name</strong> = select ‘Display name: <strong>AI By Design Solutions</strong>’</li>
+      <li><strong>Dial by name</strong> = “<strong>AI By Design Solutions</strong>”</li>
+    </ol>
 
 ![Source screenshot image41](../assets/images/updated-image41.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click **Next** to proceed.
+2. Click **Next** to proceed.
 
 <br>
 
@@ -208,21 +205,21 @@ Now you will configure the AI Receptionist and associate the Knowledge Base you 
 
 <br>
 
-1. For the lab you will use the **Receptionist Guidelines** below to simplify the configuration. Please review this information and enter this info into the configuration.
+2. For the lab you will use the **Receptionist Guidelines** below to simplify the configuration. Please review this information and enter this info into the configuration.
 
 Alternatively, you can use the file “***AI Receptionist Config-KB.txt***” that is in the **WxC AIR Files** folder on **Workstation 1’s Desktop**. Open this file and copy/paste the text into the configuration. Make sure to delete any extra blank characters at the end of the copied line.
 
 ---------------------------------------------------------------------
 
-1. **Receptionist's/Agent’ goal:**
+a. **Receptionist's/Agent’ goal:**
 
 As the AI Receptionist for **AI By Design Solutions**, your role is to assist callers by providing accurate information about our services, answering basic inquiries, and professionally redirecting calls to the right support team or the designated operator when needed. Always maintain a polite, professional, and approachable tone to ensure a positive caller experience.
 
-1. **Welcome Message:**
+b. **Welcome Message:**
 
 Hello, thank you for calling **AI By Design Solutions**. How can I assist you today?
 
-1. **Instructions/Receptionist Guidelines:**
+c. **Instructions/Receptionist Guidelines:**
 
 1.Identity
 
@@ -266,7 +263,7 @@ Hello, thank you for calling **AI By Design Solutions**. How can I assist you to
 
 ![Source screenshot image44](../assets/images/updated-image44.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click **Next**
+3. Click **Next**
 
 <br>
 
@@ -276,33 +273,33 @@ Hello, thank you for calling **AI By Design Solutions**. How can I assist you to
 
 ![Source screenshot image45](../assets/images/updated-image45.png){ .lab-screenshot width="1100" loading="lazy" }
 
-1. Click ‘**Next’**
+2. Click ‘**Next’**
 
 ### Default Action
 
 1. For the Default action, use the following settings. This is for when a caller requests to connect to a human agent or the AI Receptionist is unable to assist with the caller’s request. It can also be triggered in specific situations based on the AI Receptionist’s instructions.
 
-    1. **Action** = select “*Transfer call*” from drop down
-
-    1. **Contact type** = select ‘*Number*’
-
-    1. **Enter phone number** = “*6017*”, which is Anita Perez’s extension number
+    <ol type="a">
+      <li><strong>Action</strong> = select “<em>Transfer call</em>” from drop down</li>
+      <li><strong>Contact type</strong> = select ‘<em>Number</em>’</li>
+      <li><strong>Enter phone number</strong> = “<em>6017</em>”, which is Anita Perez’s extension number</li>
+    </ol>
 
 ![Source screenshot image46](../assets/images/updated-image46.png){ .lab-screenshot width="1083" loading="lazy" }
 
-1. Click **Review**
+2. Click **Review**
 
 ### Review and Creation
 
 1. On the **Review** page, carefully verify all configured settings across the General Settings, Receptionist guidelines, Knowledge base, and Default action tabs.
 
-1. If any changes are needed, you can navigate back to the appropriate step and update them.
+2. If any changes are needed, you can navigate back to the appropriate step and update them.
 
-1. Once satisfied, click ‘**Create’** to finish creating the AI Receptionist.
+3. Once satisfied, click ‘**Create’** to finish creating the AI Receptionist.
 
 ![Source screenshot image47](../assets/images/updated-image47.png){ .lab-screenshot width="960" loading="lazy" }
 
-1. You will see the message “**AI Receptionist was created successfully**”. Click ‘**Close’**. You will add Intents later in the lab after you create the Customer Assist queues.
+4. You will see the message “**AI Receptionist was created successfully**”. Click ‘**Close’**. You will add Intents later in the lab after you create the Customer Assist queues.
 
 ![Source screenshot image48](../assets/images/updated-image48.png){ .lab-screenshot width="956" loading="lazy" }
 

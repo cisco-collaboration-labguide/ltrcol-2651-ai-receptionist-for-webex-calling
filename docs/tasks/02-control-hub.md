@@ -8,17 +8,17 @@
 
 ![Source screenshot image12](../assets/images/updated-image12.png){ .lab-screenshot width="1036" loading="lazy" }
 
-1. On the Webex Control Hub login page, login using Charles Holland’s Webex credentials.
+2. On the Webex Control Hub login page, login using Charles Holland’s Webex credentials.
 
 ![Source screenshot image14](../assets/images/updated-image14.png){ .lab-screenshot width="920" loading="lazy" }
 
 ![Source screenshot image15](../assets/images/updated-image15.png){ .lab-screenshot width="958" loading="lazy" }
 
-1. Accept any pop-up messages you see when you log-in for the first time.
+3. Accept any pop-up messages you see when you log-in for the first time.
 
 ## Step 2: Login to the Webex App
 
-1. The Webex App should already be logged in from within workstation 1 as **Taylor Bard.** If not, you can login using the credentials from the Session\_Info.txt file as shown below. Additionally, login to the Webex App from the physical workstation or your mobile device as the user Charles Holland.
+4. The Webex App should already be logged in from within workstation 1 as **Taylor Bard.** If not, you can login using the credentials from the Session\_Info.txt file as shown below. Additionally, login to the Webex App from the physical workstation or your mobile device as the user Charles Holland.
 
 ![Session_Info.txt credentials for Webex Control Hub and app users](../assets/images/session-info-credentials.png){ .lab-screenshot width="1036" loading="lazy" }
 

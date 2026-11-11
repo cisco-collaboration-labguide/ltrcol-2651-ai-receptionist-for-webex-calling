@@ -110,23 +110,19 @@ Alternatively, you can use the file “*AI Receptionist Config-KB.txt*” that i
 
 ---------------------------------------------------------------
 
+```text
 1. Hourly Service Fee
-
 - $300 an hour
 
 2. Warranty Pricing
-
 Prices below are the list price of the warranties before contract negotiation.
-
 - 1 year warranty - $2,500 a month
-
 - 3 year warranty - $2,250 a month
-
 - 5 year warranty - $2,000 a month
 
 3. After Hours
-
-- **AI By Design Solutions**' technicians are available by appointment only after 5pm and on select weekends. Please check with a service support agent about scheduling an appointment.
+- AI By Design Solutions' technicians are available by appointment only after 5pm and on select weekends. Please check with a service support agent about scheduling an appointment.
+```
 
 ---------------------------------------------------------------
 

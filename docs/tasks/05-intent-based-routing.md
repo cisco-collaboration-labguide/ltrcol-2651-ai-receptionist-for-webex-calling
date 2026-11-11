@@ -32,8 +32,6 @@ In this lab you will add 2 intents for your **AI By Design Solutions** AI Recept
 
 1. On the **Add Intentions**: **AI By Design Solutions** page, use the following settings to configure the first intent.
 
-These settings are also in the **AI Receptionist Config.txt** file in the **WxC AIR Files** folder **on Workstation 1’s desktop**. You can use this file to copy/paste the information into the configuration.
-
 **Intent name** = WxC\_Support
 
 **Intent Description** = If a caller needs help with Webex Calling questions or features or needs help troubleshooting, configuring, or setting up Webex Calling, transfer the call to the Webex Calling Support Customer Assist queue.
@@ -49,8 +47,6 @@ These settings are also in the **AI Receptionist Config.txt** file in the **WxC 
 ![Source screenshot image88](../assets/images/updated-image88.png){ .lab-screenshot width="1100" loading="lazy" }
 
 1. You will repeat this process to add a 2<sup>nd</sup> intent. Use the following settings to configure the second intent.
-
-These settings are also in the **AI Receptionist Config.txt** file in the **WxC AIR Files** folder **on Workstation 1’s desktop**. You can use this file to copy/paste the information into the configuration.
 
 **Intent name** = WxCC\_Support
 

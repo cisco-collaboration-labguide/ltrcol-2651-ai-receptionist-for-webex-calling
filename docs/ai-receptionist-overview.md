@@ -44,18 +44,18 @@ This part of the lab is divided into two sections:
 
 **Step 1 – AI Receptionist Configuration**
 
-    - Configure the AI Receptionist and operational guidelines
+- Configure the AI Receptionist and operational guidelines
 
-    - Build and populate the AI Receptionist Knowledge Base
+- Build and populate the AI Receptionist Knowledge Base
 
 **Step 2 – Add intent-based routing and Validate caller interactions and call routing**
 
-    - Define and map intent-based call routing
+- Define and map intent-based call routing
 
-    - Login to the Webex App
+- Login to the Webex App
 
-    - Make test calls
+- Make test calls
 
-    - Validate the AI Receptionist workflow and call escalation
+- Validate the AI Receptionist workflow and call escalation
 
 <br>
